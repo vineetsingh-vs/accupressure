@@ -1,0 +1,26 @@
+.search-form {
+  min-width: 150px;
+  text-align: center;
+  padding-bottom: 3em;
+  width: calc(100% - 16em);
+  background: #eee;
+  position: fixed;
+  z-index: 10;
+  & .search-text {
+    width: 75%;
+    height: 3em;
+    margin-top: 1.5em;
+    border: .2em solid #ccc;
+    border-radius: .5em;
+  }
+}
+
+.search-full-width {
+  width: 100%;
+}
+@media(max-width:767px) {
+  .search-form{
+  width: 100%;
+  }
+}
+

@@ -1,0 +1,11 @@
+<div class="search">
+  <ng-container>
+    <med-search [meds]="fullMedDatas" (medSelected)="filterMed($event)"></med-search>
+  </ng-container>
+</div>
+
+<div class="display">
+  <ng-container *ngFor="let medData of filteredMedDatas">
+    <med-display [medData]="medData"></med-display>
+  </ng-container>
+</div>

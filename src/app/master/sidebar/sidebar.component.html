@@ -1,0 +1,13 @@
+<div class="user-profile">
+  <div class="profile-text"><a style="padding: 2em" class=""> Shaifali Saxena <i class="ti-angle-down font-12 m-l-5"></i></a></div>
+</div>
+<mat-nav-list accordian>
+  <mat-list-item accordianLink *ngFor="let menuitem of menuItems.getMenuitem()" routerLinkActive="selected">
+    <a class="" accordianToggle [routerLink]="[menuitem.state]" *ngIf="menuitem.type === 'link'">
+      <mat-icon>{{ menuitem.icon }}</mat-icon>
+      <span>{{ menuitem.name }}</span>
+      <span fxFlex></span>
+    </a>
+  </mat-list-item>
+
+</mat-nav-list>

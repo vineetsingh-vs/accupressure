@@ -1,11 +1,22 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes } from '@angular/router';
+import { MasterComponent } from '@master/master.component';
 
 
-const routes: Routes = [];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
+export const RootRoutes: Routes = [
+  {
+    path: '',
+    component: MasterComponent,
+    children: [
+      {
+        path: '',
+        redirectTo: 'med',
+        pathMatch: 'full'
+      },
+      {
+        path: 'med',
+        loadChildren:
+          () => import('./med/med.module').then(m => m.MedModule)
+      }
+    ]
+  }
+];

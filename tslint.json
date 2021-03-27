@@ -20,14 +20,14 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
-      "kebab-case"
+      "",
+      ""
     ],
     "eofline": true,
     "import-blacklist": [
@@ -135,6 +135,7 @@
       "options": [
         "ban-keywords",
         "check-format",
+        "allow-leading-underscore",
         "allow-pascal-case"
       ]
     },

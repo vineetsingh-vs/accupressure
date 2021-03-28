@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, ViewEncapsulation } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
@@ -7,7 +7,8 @@ import { Med } from '@med/med.model';
 @Component({
   selector: 'med-search',
   templateUrl: './med-search.component.html',
-  styleUrls: ['./med-search.component.scss']
+  styleUrls: ['./med-search.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class MedSearchComponent implements OnInit {
   public control = new FormControl();
@@ -17,10 +18,10 @@ export class MedSearchComponent implements OnInit {
   @Output()
   public medSelected = new EventEmitter<Med>();
 
-  filteredStreets: Observable<string[]>;
+  filteredMeds: Observable<string[]>;
 
   ngOnInit() {
-    this.filteredStreets = this.control.valueChanges.pipe(
+    this.filteredMeds = this.control.valueChanges.pipe(
       startWith(''),
       map(value => this._filter(value))
     );

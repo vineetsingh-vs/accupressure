@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import {MasterComponent} from '@master/master.component';
+import { AdminGuard } from '@core/guard/admin.guard';
 
 
 export const RootRoutes: Routes = [
@@ -9,18 +10,19 @@ export const RootRoutes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'auth',
+        redirectTo: 'med',
         pathMatch: 'full'
-      },
-      {
-        path: 'auth',
-        loadChildren:  () => import('./auth/auth.module').then(mod => mod.AuthModule)
       },
       {
         path: 'med',
         loadChildren:
           () => import('./med/med.module').then(m => m.MedModule)
       }
-    ]
-  }
+    ],
+    canActivate: [AdminGuard]
+  },
+  {
+    path: 'auth',
+    loadChildren:  () => import('./auth/auth.module').then(mod => mod.AuthModule),
+  },
 ];

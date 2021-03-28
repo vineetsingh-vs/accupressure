@@ -13,6 +13,14 @@
     border: .2em solid #ccc;
     border-radius: .5em;
   }
+  & .close-icon {
+    position: absolute;
+    top: 25%;
+    margin-left: -30px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 }
 
 .search-full-width {

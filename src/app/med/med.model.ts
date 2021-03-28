@@ -1,5 +1,5 @@
 export interface Med {
   context: string;
-  treatment: string[];
-  image: string[];
+  treatments: string[];
+  images: string[];
 }

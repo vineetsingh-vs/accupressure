@@ -1,13 +1,13 @@
 <form class="search-form" fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
   <input type="text"
          class="search-text"
-         placeholder="Search for a street"
+         placeholder="Search"
          [formControl]="control"
          [matAutocomplete]="auto" >
-  <mat-icon matPrefix>email</mat-icon>
-  <mat-autocomplete  #auto="matAutocomplete">
-    <mat-option (onSelectionChange)="optionSelected($event)" *ngFor="let street of filteredStreets | async | slice:0:10" [value]="street">
-      {{street}}
+  <mat-icon matSuffix class="close-icon" (click)="control.setValue('')">close</mat-icon>
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option (onSelectionChange)="optionSelected($event)" *ngFor="let med of filteredMeds | async | slice:0:10" [value]="med">
+      {{med}}
     </mat-option>
   </mat-autocomplete>
 </form>

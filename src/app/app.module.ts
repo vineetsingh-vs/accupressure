@@ -11,8 +11,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MasterComponent } from '@master/master.component';
 import { SidebarComponent } from '@master/sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {AuthModule} from '@app/auth/auth.module';
-
 
 
 @NgModule({
@@ -26,8 +24,7 @@ import {AuthModule} from '@app/auth/auth.module';
     RouterModule.forRoot(RootRoutes),
     MaterialModule,
     FlexLayoutModule,
-    BrowserAnimationsModule,
-    AuthModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

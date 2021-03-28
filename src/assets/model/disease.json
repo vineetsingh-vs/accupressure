@@ -2,28 +2,28 @@
   "diseases": [
     {
       "disease": "Abdomen (lower) colic & spasm",
-      "Treatment": "Sp 4↓",
-      "Image": "Sp_4.jpeg"
+      "treatment": ["Sp 4↓"],
+      "image": ["Sp_4.jpeg"]
     },
     {
       "disease": "Acne (eruptions of papules on skin)",
-      "Treatment": "K 2↓",
-      "Image": "Sp_4.jpeg"
+      "treatment": ["K 2↓"],
+      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
     },
     {
       "disease": "Adenitis (inflammation of a gland) - Adenitis of lumbar, thigh, knee",
-      "Treatment": "GB 30↑",
-      "Image": "Sp_4.jpeg"
+      "treatment": ["GB 30↑"],
+      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
     },
     {
       "disease": "Adenitis (inflammation of a gland) - Swollen glands of neck",
-      "Treatment": "CV 19↓",
-      "Image": "Sp_4.jpeg"
+      "treatment": ["CV 19↓"],
+      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
     },
     {
       "disease": "Adenitis (inflammation of a gland) - Scrofula (TB of cervical lymph node)",
-      "Treatment": "CV 19↓",
-      "Image": "Sp_4.jpeg"
+      "treatment": ["CV 19↓"],
+      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
     }
   ]
 }

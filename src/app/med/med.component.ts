@@ -38,7 +38,7 @@ export class MedComponent implements OnInit {
     this.httpService.getData('../../assets/model/disease.json').toPromise()
       .then((data) => {
         this.fullMedDatas = ((data || {}).diseases || [])
-          .map(disease => ({context: disease.disease, treatment: disease.Treatment, image: disease.image}));
+          .map(disease => ({context: disease.disease, treatments: disease.Treatment, images: disease.image}));
         this.filteredMedDatas = _.cloneDeep(this.fullMedDatas);
       });
   }

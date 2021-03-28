@@ -9,6 +9,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MedDisplayComponent } from './med-display/med-display.component';
 import { CoreModule } from '@core/core.module';
 import { SharedModule } from '@shared/shared.module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -22,7 +23,8 @@ import { SharedModule } from '@shared/shared.module';
     FormsModule,
     ReactiveFormsModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    NgbModule
   ]
 })
 export class MedModule { }

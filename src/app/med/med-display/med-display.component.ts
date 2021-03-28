@@ -1,13 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { Med } from '@med/med.model';
-import {
-  AUTO_STYLE,
-  animate,
-  state,
-  style,
-  transition,
-  trigger
-} from '@angular/animations';
+import { animate, AUTO_STYLE, state, style, transition, trigger } from '@angular/animations';
 
 const DEFAULT_DURATION = 300;
 @Component({
@@ -21,7 +14,8 @@ const DEFAULT_DURATION = 300;
       transition('false => true', animate(DEFAULT_DURATION + 'ms ease-in')),
       transition('true => false', animate(DEFAULT_DURATION + 'ms ease-out'))
     ])
-  ]
+  ],
+  encapsulation: ViewEncapsulation.None
 })
 export class MedDisplayComponent implements OnInit {
 

@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { MasterComponent } from '@master/master.component';
+import {MasterComponent} from '@master/master.component';
 
 
 export const RootRoutes: Routes = [
@@ -9,8 +9,12 @@ export const RootRoutes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'med',
+        redirectTo: 'auth',
         pathMatch: 'full'
+      },
+      {
+        path: 'auth',
+        loadChildren:  () => import('./auth/auth.module').then(mod => mod.AuthModule)
       },
       {
         path: 'med',

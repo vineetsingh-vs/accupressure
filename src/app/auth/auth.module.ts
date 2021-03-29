@@ -6,6 +6,7 @@ import {SharedModule} from '@shared/shared.module';
 import {AuthRoutingModule} from '@app/auth/auth-routing.module';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MaterialModule} from '@shared/material/material.module';
+import {ReactiveFormsModule} from '@angular/forms';
 
 const modules = [AuthRoutingModule,
   SharedModule];
@@ -16,7 +17,8 @@ const modules = [AuthRoutingModule,
   imports: [
     ...modules,
     MatFormFieldModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ]
 })
 export class AuthModule { }

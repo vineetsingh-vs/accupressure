@@ -1,6 +1,6 @@
-import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
 import { CoreHttpService } from '@core/services/http/http.service';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -8,10 +8,17 @@ import { CoreHttpService } from '@core/services/http/http.service';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit {
-
   constructor(private http: CoreHttpService) { }
 
   public error: boolean;
+  public dataSource: any[] = [];
+
+  public displayedColumns = [
+    {displayName: 'Full Name', fieldName: 'fullName'},
+    {displayName: 'Email Id', fieldName: 'emailId'},
+    {displayName: 'Password', fieldName: 'password'},
+    {displayName: 'Order Id', fieldName: 'orderId'},
+  ];
 
   public form: FormGroup = new FormGroup({
     fullName: new FormControl('', Validators.required),
@@ -24,6 +31,7 @@ export class RegisterComponent implements OnInit {
     if (this.form.valid) {
       this.http.postData('/authent/register', this.form.value).toPromise().then((user) => {
         if (!!user) {
+          this.dataSource = [...this.dataSource, user];
           localStorage.setItem('user', JSON.stringify(user));
         }
       });
@@ -34,5 +42,4 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

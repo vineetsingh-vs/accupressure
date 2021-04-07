@@ -10,15 +10,15 @@ import { MedDisplayComponent } from './med-display/med-display.component';
 import { CoreModule } from '@core/core.module';
 import { SharedModule } from '@shared/shared.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { RegisterComponent } from './register/register.component';
 
 
 
 
 @NgModule({
-  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent],
+  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent, RegisterComponent],
   imports: [
     RouterModule.forChild(MedRoutes),
-    MaterialModule,
     CommonModule,
     FormsModule,
     ReactiveFormsModule,

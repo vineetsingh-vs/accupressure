@@ -7,18 +7,22 @@ import {AuthRoutingModule} from '@app/auth/auth-routing.module';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MaterialModule} from '@shared/material/material.module';
 import {ReactiveFormsModule} from '@angular/forms';
+import { CoreModule } from '@core/core.module';
+import { CommonModule } from '@angular/common';
+import { DetailComponent } from './detail/detail.component';
 
 const modules = [AuthRoutingModule,
   SharedModule];
 
 
 @NgModule({
-  declarations: [LoginComponent, RegisterComponent, ResetComponent],
+  declarations: [LoginComponent, RegisterComponent, ResetComponent, DetailComponent],
   imports: [
     ...modules,
     MatFormFieldModule,
-    MaterialModule,
     ReactiveFormsModule
+    , CoreModule,
+    CommonModule
   ]
 })
 export class AuthModule { }

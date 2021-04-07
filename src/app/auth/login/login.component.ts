@@ -1,5 +1,6 @@
 import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
-import {FormControl, FormGroup} from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { CoreHttpService } from '@core/services/http/http.service';
 
 @Component({
   selector: 'app-login',
@@ -8,20 +9,22 @@ import {FormControl, FormGroup} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: CoreHttpService) { }
 
-  @Input() error: string | null;
-
-  @Output() submitEM = new EventEmitter();
+  public error: boolean;
 
   form: FormGroup = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
+    emailId: new FormControl('', [Validators.email, Validators.required]),
+    password: new FormControl('', Validators.required),
   });
 
   submit() {
+    this.error = false;
     if (this.form.valid) {
-      this.submitEM.emit(this.form.value);
+      this.http.postData('/authent/login', this.form.value).toPromise().then((user) => {
+      });
+    } else {
+      this.error = true;
     }
   }
 

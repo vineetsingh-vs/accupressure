@@ -27,7 +27,7 @@ export class MedComponent implements OnInit {
   }
 
   private filterUrl(url: string): string {
-    const ctx = ['disease', 'point'].find((med) => url.includes(med));
+    const ctx = ['disease', 'point'].find((med) => !!med && !!url && url.includes(med));
     return {
       disease: '../../assets/model/disease.json',
       point: '../../assets/model/disease.json'

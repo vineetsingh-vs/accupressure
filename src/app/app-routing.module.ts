@@ -15,11 +15,10 @@ export const RootRoutes: Routes = [
       },
       {
         path: 'med',
-        loadChildren:
-          () => import('./med/med.module').then(m => m.MedModule)
+        loadChildren: () => import('./med/med.module').then(m => m.MedModule)
       }
     ],
-    canActivate: [AdminGuard]
+    // canActivate: [AdminGuard]
   },
   {
     path: 'auth',

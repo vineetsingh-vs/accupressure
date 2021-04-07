@@ -80,7 +80,9 @@ const materialModules = [
   ObserversModule,
   OverlayModule,
   PlatformModule,
-  PortalModule];
+  PortalModule,
+  MatTableModule
+];
 
 
 

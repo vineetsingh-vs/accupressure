@@ -1,4 +1,4 @@
-import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { CoreHttpService } from '@core/services/http/http.service';
 
@@ -11,7 +11,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private http: CoreHttpService) { }
 
-  public error: boolean;
+  public errorMessage: string;
 
   form: FormGroup = new FormGroup({
     emailId: new FormControl('', [Validators.email, Validators.required]),
@@ -19,12 +19,17 @@ export class LoginComponent implements OnInit {
   });
 
   submit() {
-    this.error = false;
+    this.errorMessage = null;
     if (this.form.valid) {
-      this.http.postData('/authent/login', this.form.value).toPromise().then((user) => {
+      this.http.postData('/authent/login', this.form.value).toPromise().then((emailId) => {
+        if (!!emailId) {
+          window.open(`${window.location.origin}/med/point`);
+        } else {
+          this.errorMessage = 'Invalid Credentials!';
+        }
       });
     } else {
-      this.error = true;
+      this.errorMessage = 'Invalid Credentials!';
     }
   }
 

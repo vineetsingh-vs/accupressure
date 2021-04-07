@@ -4,27 +4,28 @@
     <form [formGroup]="form" (ngSubmit)="submit()">
       <p>
         <mat-form-field class="field">
-          <input  matInput placeholder="Email">
+          <input  matInput placeholder="Email" formControlName="emailId">
         </mat-form-field>
       </p>
       <p>
         <mat-form-field class="field">
-          <input matInput type="password" placeholder="Old Password">
+          <input matInput type="password" placeholder="Old Password" formControlName="oldPassword">
         </mat-form-field>
       </p>
       <p>
         <mat-form-field class="field">
-          <input  matInput type="password" placeholder="New Password">
+          <input  matInput type="password" placeholder="New Password" formControlName="newPassword">
         </mat-form-field>
       </p>
       <p>
         <mat-form-field class="field">
-          <input matInput type="password" placeholder="Confirm New Password">
+          <input matInput type="password" placeholder="Confirm New Password" formControlName="confirmNewPassword">
         </mat-form-field>
       </p>
+      <div class="button">
+        <button type="submit" color="accent" mat-button>Reset</button>
+      </div>
     </form>
   </mat-card-content>
-  <div class="button">
-    <button type="submit" color="accent" mat-button>Reset</button>
-  </div>
+
 </mat-card>

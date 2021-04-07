@@ -1,5 +1,6 @@
-import {Component, Input, OnInit, Output, EventEmitter} from '@angular/core';
-import {FormControl, FormGroup} from '@angular/forms';
+import {Component, Input, OnInit} from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {CoreHttpService} from '@core/services/http/http.service';
 
 @Component({
   selector: 'app-reset',
@@ -8,20 +9,30 @@ import {FormControl, FormGroup} from '@angular/forms';
 })
 export class ResetComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: CoreHttpService) { }
+
+  public errorMessage: string;
 
   @Input() error: string | null;
 
-  @Output() submitEM = new EventEmitter();
-
   form: FormGroup = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
+    emailId: new FormControl('', [Validators.email, Validators.required]),
+    oldPassword: new FormControl('', [Validators.required]),
+    newPassword: new FormControl('', [Validators.required]),
+    confirmNewPassword: new FormControl('', [Validators.required]),
   });
 
   submit() {
     if (this.form.valid) {
-      this.submitEM.emit(this.form.value);
+      this.http.postData('/authent/reset', this.form.value).toPromise().then((emailId) => {
+        if (!!emailId) {
+         console.log('Password reset successful');
+        } else {
+          this.errorMessage = 'Invalid Credentials!';
+        }
+      });
+    } else {
+      this.errorMessage = 'Invalid Credentials!';
     }
   }
 

@@ -4,10 +4,11 @@ import { AccordianDirective, AccordianLinkDirective, AccordianToggleDirective } 
 import { TableComponent } from './component/table/table.component';
 import { MaterialModule } from '@shared/material/material.module';
 import { SpinnerComponent } from '@shared/component/spinner/spinner.component';
+import { DialogComponent } from './component/dialog/dialog.component';
 
 
 @NgModule({
-  declarations: [AccordianDirective, AccordianLinkDirective, AccordianToggleDirective, TableComponent, SpinnerComponent],
+  declarations: [AccordianDirective, AccordianLinkDirective, AccordianToggleDirective, TableComponent, SpinnerComponent, DialogComponent],
   imports: [
     CommonModule,
     MaterialModule

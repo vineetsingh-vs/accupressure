@@ -1,6 +1,9 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {CoreHttpService} from '@core/services/http/http.service';
+import {Router} from '@angular/router';
+import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
+import {DialogComponent} from '@shared/component/dialog/dialog.component';
 
 @Component({
   selector: 'app-reset',
@@ -9,7 +12,7 @@ import {CoreHttpService} from '@core/services/http/http.service';
 })
 export class ResetComponent implements OnInit {
 
-  constructor(private http: CoreHttpService) { }
+  constructor(private http: CoreHttpService, private router: Router, private dialog: MatDialog) { }
 
   public errorMessage: string;
 
@@ -24,9 +27,9 @@ export class ResetComponent implements OnInit {
 
   submit() {
     if (this.form.valid) {
-      this.http.postData('/authent/reset', this.form.value).toPromise().then((emailId) => {
-        if (!!emailId) {
-         console.log('Password reset successful');
+      this.http.postData('/authent/reset', this.form.value).toPromise().then((resp) => {
+        if (resp) {
+         this.openDialog();
         } else {
           this.errorMessage = 'Invalid Credentials!';
         }
@@ -39,4 +42,21 @@ export class ResetComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openDialog() {
+    const dialogConfig = new MatDialogConfig();
+
+    dialogConfig.disableClose = true;
+    dialogConfig.autoFocus = true;
+
+    dialogConfig.data = {
+      description: 'Password reset successful'
+    };
+
+    const dialogRef = this.dialog.open(DialogComponent, dialogConfig);
+
+    dialogRef.afterClosed().subscribe(() => {
+        localStorage.setItem('user', null);
+        this.router.navigate(['/']);
+    });
+  }
 }

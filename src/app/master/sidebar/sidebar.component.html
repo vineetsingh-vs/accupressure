@@ -3,7 +3,7 @@
 </div>
 <mat-nav-list accordian>
   <mat-list-item accordianLink *ngFor="let menuitem of menuItems.getMenuitem()" routerLinkActive="selected">
-    <a class="" accordianToggle [routerLink]="[menuitem.state]" *ngIf="menuitem.type === 'link'">
+    <a class="" accordianToggle [routerLink]="[menuitem.state]" (click)="onMenuClick(menuitem)" *ngIf="menuitem.type === 'link'">
       <mat-icon>{{ menuitem.icon }}</mat-icon>
       <span>{{ menuitem.name }}</span>
       <span fxFlex></span>

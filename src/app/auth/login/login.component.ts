@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { CoreHttpService } from '@core/services/http/http.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +10,7 @@ import { CoreHttpService } from '@core/services/http/http.service';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private http: CoreHttpService) { }
+  constructor(private http: CoreHttpService, private router: Router) { }
 
   public errorMessage: string;
 
@@ -23,7 +24,8 @@ export class LoginComponent implements OnInit {
     if (this.form.valid) {
       this.http.postData('/authent/login', this.form.value).toPromise().then((emailId) => {
         if (!!emailId) {
-          window.open(`${window.location.origin}/med/point`);
+          localStorage.setItem('user', JSON.stringify(emailId));
+          this.router.navigate(['/']);
         } else {
           this.errorMessage = 'Invalid Credentials!';
         }

@@ -27,4 +27,10 @@ export class SidebarComponent implements OnDestroy {
   ngOnDestroy(): void {
     this.mobileQuery.removeEventListener('change', this.mobileQueryListener);
   }
+
+  public onMenuClick(menu): void {
+    if (!!menu && menu.action) {
+      menu.action();
+    }
+  }
 }

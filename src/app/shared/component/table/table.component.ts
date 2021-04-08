@@ -22,6 +22,14 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
 ];
 
+export interface User {
+  id?: string;
+  fullName: string;
+  emailId: string;
+  password: string;
+  orderId: string;
+}
+
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
@@ -31,9 +39,7 @@ export class TableComponent implements OnInit, AfterViewInit, OnChanges {
   @Input()
   public displayedColumns: any[];
   @Input()
-  public dataSource: MatTableDataSource<any>;
-  @ViewChild(MatPaginator) paginator: MatPaginator;
-  @ViewChild(MatSort) sort: MatSort;
+  public dataSource: MatTableDataSource<User>;
 
   public columns: any[] = [];
   ngOnInit(): void {
@@ -41,15 +47,12 @@ export class TableComponent implements OnInit, AfterViewInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    debugger;
   }
 
   constructor() {
   }
 
   ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
   }
 
   public applyFilter(event: Event) {

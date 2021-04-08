@@ -20,7 +20,7 @@
         </p>
         <p *ngIf="error" class="error">
           <span>
-            Please enter required fields
+            {{!!alreadyExist ? 'Email Id already exists!!' : 'Please enter required fields'}}
           </span>
         </p>
         <div class="button">
@@ -40,7 +40,7 @@
       <div style="width: 100%">
         <app-table
          [displayedColumns]="displayedColumns"
-         [dataSource]="[dataSource]"
+         [dataSource]="dataSource"
         >
         </app-table>
       </div>
@@ -49,4 +49,4 @@
 </div>
 
 
-<!--Test-->
+<spinner [isSpinnerVisible]="loading"></spinner>

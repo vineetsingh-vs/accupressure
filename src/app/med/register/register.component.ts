@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { CoreHttpService } from '@core/services/http/http.service';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormControl, FormGroup, FormGroupDirective, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -12,6 +12,10 @@ export class RegisterComponent implements OnInit {
 
   public error: boolean;
   public dataSource: any[] = [];
+  public loading: boolean;
+  public alreadyExist: boolean;
+
+  @ViewChild(FormGroupDirective) formGroupDirective: FormGroupDirective;
 
   public displayedColumns = [
     {displayName: 'Full Name', fieldName: 'fullName'},
@@ -28,12 +32,23 @@ export class RegisterComponent implements OnInit {
 
   submit() {
     this.error = false;
+    this.alreadyExist = false;
     if (this.form.valid) {
+      this.loading = true;
       this.http.postData('/authent/register', this.form.value).toPromise().then((user) => {
+        this.loading = false;
         if (!!user) {
           this.dataSource = [...this.dataSource, user];
-          localStorage.setItem('user', JSON.stringify(user));
+          this.form.reset();
+          this.updateValidity();
         }
+      }).catch((error) => {
+        this.loading = false;
+        const validators = this.form.validator;
+        this.form.reset();
+        this.updateValidity();
+        this.error = true;
+        this.alreadyExist = error.error.description.includes('Email Id already exist!');
       });
     } else {
       this.error = true;
@@ -41,5 +56,9 @@ export class RegisterComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  public updateValidity(): void {
+    setTimeout(() => this.formGroupDirective.resetForm());
   }
 }

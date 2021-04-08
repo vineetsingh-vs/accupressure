@@ -18,7 +18,7 @@ export const RootRoutes: Routes = [
         loadChildren: () => import('./med/med.module').then(m => m.MedModule)
       }
     ],
-    // canActivate: [AdminGuard]
+    canActivate: [AdminGuard]
   },
   {
     path: 'auth',

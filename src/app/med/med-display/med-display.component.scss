@@ -5,10 +5,23 @@ med-display {
   & img {
     width: 50%;
   }
-  //& .carousel-inner{
-  //  width: 50%;
-  //  height: 50%;
-  //}
+
+  & .mat-card-content {
+    padding: .5em 24px !important;
+  }
+  & .field-set{
+    border-width: 2px !important;
+    border-style: groove !important;
+    border-color: #f57b41 !important;
+    border-image: initial !important;
+    margin-bottom: 1em !important;
+    & legend{
+      width: unset!important;
+      margin-left: .5rem;
+      font-size: 1.1rem;
+    }
+  }
+
   ngb-carousel {
     &:hover{
       & .carousel-control-next{
@@ -25,18 +38,41 @@ med-display {
     position: relative;
     height: 0;
     padding-top: 55%; /* Keep ratio for 900x500 images */
+
   }
 
   ngb-carousel .picsum-img-wrapper>img {
     position: absolute;
-    top: 0;
+    top: 6.5px;
     left: 25%;
     bottom: 0;
     right: 0;
   }
+  & .display-img{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #eeeeee;
+  }
+  & .display-info {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    & .info-content {
+      margin: 1em;
+      border: .3em dashed #ccc;
+      padding: 3em 1em;
+      min-height: 16em;
+      border-radius: 1em;
+    }
+  }
 
-
-
-
+  & .legend-box {
+    color: #ffffff;
+    display: inline-block;
+    background: #000000;
+    padding: .4em;
+    font-weight: 600;
+    font-size: .8em;
+  }
 }
-

@@ -3,3 +3,8 @@ export interface Med {
   treatments: string[];
   images: string[];
 }
+
+export interface Meridian {
+  point: string;
+  description: string;
+}

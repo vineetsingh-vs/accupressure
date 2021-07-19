@@ -1,29 +1,2935 @@
 {
   "diseases": [
     {
-      "disease": "Abdomen (lower) colic & spasm",
-      "treatment": ["Sp 4↓"],
-      "image": ["Sp_4.jpeg"]
+      "disease": "Abdomen (lower) colic & spasm",
+      "treatment": "Sp 4↓"
     },
     {
-      "disease": "Acne (eruptions of papules on skin)",
-      "treatment": ["K 2↓"],
-      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
+      "disease": "Acne (eruptions of papules on skin)",
+      "treatment": "K 2↓"
     },
     {
-      "disease": "Adenitis (inflammation of a gland) - Adenitis of lumbar, thigh, knee",
-      "treatment": ["GB 30↑"],
-      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
+      "disease": "Adenitis (inflammation of a gland) - Adenitis of lumbar, thigh, knee",
+      "treatment": "G 30↑"
     },
     {
-      "disease": "Adenitis (inflammation of a gland) - Swollen glands of neck",
-      "treatment": ["CV 19↓"],
-      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
+      "disease": "Adenitis (inflammation of a gland) - Swollen glands of neck",
+      "treatment": "CV 19↓"
     },
     {
-      "disease": "Adenitis (inflammation of a gland) - Scrofula (TB of cervical lymph node)",
-      "treatment": ["CV 19↓"],
-      "image": ["Sp_4.jpeg","Sp_4.jpeg"]
+      "disease": "Adenitis (inflammation of a gland) - Scrofula (TB of cervical lymph node)",
+      "treatment": "CV 19↓"
+    },
+    {
+      "disease": "Adenitis (inflammation of a gland) - Acute",
+      "treatment": "P 7↓,Liv 3↓"
+    },
+    {
+      "disease": "Adenitis (inflammation of a gland) Tumour",
+      "treatment": "CV 4↓, CV 12↓"
+    },
+    {
+      "disease": "Adenitis (inflammation of a gland) - Tumour or swelling on neck",
+      "treatment": "G 20↑"
+    },
+    {
+      "disease": "Adenitis (inflammation of a gland) - Popliteal (area behind knees) adenitis",
+      "treatment": "UB 55↓"
+    },
+    {
+      "disease": "Ageing – to slow down",
+      "treatment": "St 36↑"
+    },
+    {
+      "disease": "Affections of Eyes",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Affections of Nose",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Affections of Ear",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Affections of Brain",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Alcoholism -  Acute",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Alcoholism - Chronic",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Albuminuria (presence of serum albumin in urine)",
+      "treatment": "K 3↑, CV 4↑,Sp 6↑"
+    },
+    {
+      "disease": "Allergy - General",
+      "treatment": "Liv 3↓,Sp 10↓, GV 14 ↓"
+    },
+    {
+      "disease": "Allergy to Food Smell (symptoms – loss of appetite, nausea, hiccups, breathlessness)",
+      "treatment": "Lu 1↓"
+    },
+    {
+      "disease": "Amnesia (memory impairment) - General",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Amnesia (memory impairment) - Recent Memory Poor",
+      "treatment": "H 9↑"
+    },
+    {
+      "disease": "Anemia (deficiency of Red blood cells or Haemoglobin)",
+      "treatment": "UB 15↑ ,UB 67↑"
+    },
+    {
+      "disease": "Anger - Short tempered due to liver fire",
+      "treatment": "Liv 2 ↓"
+    },
+    {
+      "disease": "Anger - Below 20 years of age, due to kidney deficiency",
+      "treatment": "K 3↑,UB 23 ↑"
+    },
+    {
+      "disease": "Anger - Old age, due to spleen deficiency",
+      "treatment": "Sp 6↑,St 36↑"
+    },
+    {
+      "disease": "Angina (chest pain due to oxygen deficiency in heart muscles, may  radiate to arm)",
+      "treatment": "H 9↑,H 7↓"
+    },
+    {
+      "disease": "Angina - Male (chest pain due to oxygen deficiency in heart muscles, may  radiate to arm)",
+      "treatment": "Sp 4 (L) ↑, P 6 ↓ (R)"
+    },
+    {
+      "disease": "Angina - Female (chest pain due to oxygen deficiency in heart muscles, may  radiate to arm)",
+      "treatment": "Sp 4 (R) ↑,P 6 ↓ (L)"
+    },
+    {
+      "disease": "Anus inflammation",
+      "treatment": "UB 50 ↓"
+    },
+    {
+      "disease": "Aphasia - (defect/loss of power of expression)",
+      "treatment": "SI 3↑"
+    },
+    {
+      "disease": "Aphasia - Sudden loss of voice",
+      "treatment": "H 5↑"
+    },
+    {
+      "disease": "Appendicitis (inflammation of appendix) - Acute",
+      "treatment": "St 36 1/2↓, St 37↓"
+    },
+    {
+      "disease": "Appendicitis (inflammation of appendix) - Chronic",
+      "treatment": "Liv 2↓"
+    },
+    {
+      "disease": "Arms Problem",
+      "treatment": ""
+    },
+    {
+      "disease": "Shoulder pain & inability to raise arm",
+      "treatment": "LI 1↑,Lu 2↓,Lu 6↓"
+    },
+    {
+      "disease": "Upper arm pain    ",
+      "treatment": "Lu 2↓"
+    },
+    {
+      "disease": "Elbow extension/flexion problem",
+      "treatment": "Lu 6↓"
+    },
+    {
+      "disease": "Elbow pain",
+      "treatment": "Lu 5↓,Lu 6↓"
+    },
+    {
+      "disease": "Elbow spasm",
+      "treatment": "TW 5 ↓"
+    },
+    {
+      "disease": "Elbow paretic limpness",
+      "treatment": "TW 4↓,P 6↑"
+    },
+    {
+      "disease": "Fist- inability to close",
+      "treatment": "Lu 6↓"
+    },
+    {
+      "disease": "Palm hot",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Hand pain",
+      "treatment": "LI 3↓"
+    },
+    {
+      "disease": "Arterial Tension - To Decrease",
+      "treatment": "Liv 5↓"
+    },
+    {
+      "disease": "Arterial Tension - To Increase",
+      "treatment": "Liv 5↑"
+    },
+    {
+      "disease": "Arthritis (inflammation of joints)",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Arthritis - Rheumatoid pain",
+      "treatment": "LI 8↓"
+    },
+    {
+      "disease": "Ascites (effusion & accumulation of serous fluid in abdominal cavity)",
+      "treatment": " CV 7↓, St 34↓"
+    },
+    {
+      "disease": "Acute bronchial asthma (sudden onset)",
+      "treatment": "Lu 2↓,Lu 6↓, CV 22↓"
+    },
+    {
+      "disease": "Chronic bronchial asthma (breathlessness even at rest in sitting position)",
+      "treatment": "Lu 5↓,UB 13↓"
+    },
+    {
+      "disease": "Cardiac asthma (breathlessness on exertion)",
+      "treatment": "H 5↑"
+    },
+    {
+      "disease": "Renal asthma (difficulty in inhalation)",
+      "treatment": "K 6 ↑, K 7↑"
+    },
+    {
+      "disease": "Asthma caused by Liver (lips and nails turn black)",
+      "treatment": "Liv 3↓"
+    },
+    {
+      "disease": "Allergic asthma (due to allergy, breathlessness & sneezing, possibly eosinophilia)",
+      "treatment": "Lu 11↓,Sp 10↓"
+    },
+    {
+      "disease": "Asthma caused by spleen (excess phlegm, gas in chest)",
+      "treatment": "Sp 4↓,Liv 13↓"
+    },
+    {
+      "disease": "Atony (lack of normal tone or strength) - Chronic lack of tone",
+      "treatment": "SI 4↑"
+    },
+    {
+      "disease": "Atonia of orbicularis (mouth) muscles",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Atonia of duodenum",
+      "treatment": "H 5↓"
+    },
+    {
+      "disease": "Atonia of large intestine",
+      "treatment": "LI 4↑"
+    },
+    {
+      "disease": "Atonia of small intestine",
+      "treatment": "SI 2↑"
+    },
+
+    {
+      "disease": "Backache / Back problem",
+      "treatment": "GV 10↓"
+    },
+    {
+      "disease": "Back stiffness",
+      "treatment": "GV 1↓"
+    },
+    {
+      "disease": "Lower back pain",
+      "treatment": "K 3↓"
+    },
+    {
+      "disease": "Upper back pain, due to chronic deficiency of lungs",
+      "treatment": "UB 13↑"
+    },
+    {
+      "disease": "Bathing problem – any type,  i.e., itching , sweating, etc.",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Belching – loud",
+      "treatment": "P 7↓  "
+    },
+    {
+      "disease": "Bad breath",
+      "treatment": "P 7↓"
+    },
+    {
+      "disease": "Bleeding – anywhere in body",
+      "treatment": "Sp 6↑,Lu 6↑"
+    },
+    {
+      "disease": "Blood chemistry disorders",
+      "treatment": "UB 17↓ "
+    },
+    {
+      "disease": "Blood pressure - Hyposystole (weak or incomplete cardiac systole)",
+      "treatment": "H  9↑"
+    },
+    {
+      "disease": "Low Blood Pressure - Hypotension",
+      "treatment": "P 9↑,H 7↑"
+    },
+    {
+      "disease": "High Blood Pressure - Hypertension",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Blood disorders - Azotaemia (excess urea & creatinine in blood)",
+      "treatment": "St 25↓"
+    },
+    {
+      "disease": "Blood disorders - Hemophilia (hereditary hemorrhagic disease in which blood  fails to clot)",
+      "treatment": "TW 5↓"
+    },
+    {
+      "disease": "Blood disorders - Leukemia (blood cancer)",
+      "treatment": "Sp 15↓, UB 20 ↓"
+    },
+    {
+      "disease": "Blood disorders - Platelets count reduced (to increase)",
+      "treatment": "TW 5↓"
+    },
+    {
+      "disease": "Blood disorders - Thickness of blood (to cause aspirin effect)",
+      "treatment": "TW 5↑"
+    },
+    {
+      "disease": "Blood disorders - Leucocytemia (excess white blood cells in blood)",
+      "treatment": "LI 11↓"
+    },
+    {
+      "disease": "Blood disorders - Acetonemia  (excess ketone bodies in blood causing emaciation)",
+      "treatment": "Liv 8 ↑"
+    },
+    {
+      "disease": "Bone disorders - Fracture- to heal quickly",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Bone disorders - Abscess of bone/tooth",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Bone disorders - Rickets (bones deformity, etc in children due to vitamin D deficiency)",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Bone disorders - Arthritis of foot",
+      "treatment": "UB 67↑"
+    },
+    {
+      "disease": "Bone disorders - Dislocation (disunion of bones)",
+      "treatment": "SI 3↑"
+    },
+    {
+      "disease": "Bone disorders - Promote bone formation in children & prevent bone  degeneration  in elderly",
+      "treatment": "UB 11↑"
+    },
+    {
+      "disease": "Body pain - only at night ",
+      "treatment": "LI 15↑, TW 15↑"
+    },
+    {
+      "disease": "Brain tumor (growth of mass in brain)",
+      "treatment": "UB 6↓ ,UB 8↓ opposite side"
+    },
+    {
+      "disease": "Brain fag (Brain fatigue causing nervous weakness & somnolence)",
+      "treatment": "GV 13↑"
+    },
+    {
+      "disease": "Acute Bronchitis (inflammation of bronchus)",
+      "treatment": "UB 13↓"
+    },
+    {
+      "disease": "Chronic Bronchitis (inflammation of bronchus)",
+      "treatment": "Lu 5↓,St 40↓"
+    },
+    {
+      "disease": "Breathlessness - Acute dyspnea (difficult breathing)",
+      "treatment": "CV 14↓, P 9↑"
+    },
+    {
+      "disease": "Breathlessness - Painful dyspnea",
+      "treatment": "CV 12↓."
+    },
+    {
+      "disease": "Breathlessness - Dyspnea with nervous cough",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Burn injuries – to provide immediate cooling effect.",
+      "treatment": "CV 7↓"
+    },
+
+    {
+      "disease": "Cancer (malignant tumor) anywhere in body - gives pain relief",
+      "treatment": "UB 12↓,LI 11↓, St 36 ↓"
+    },
+    {
+      "disease": "Cellulitis (inflammation of soft or connective tissues)",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Choleriform (a disease resembling cholera)",
+      "treatment": "SI 7↓"
+    },
+    {
+      "disease": "Cheeks – inflammation",
+      "treatment": "SI 10↓"
+    },
+    {
+      "disease": "Chest – oppression",
+      "treatment": "H 5 ↓"
+    },
+    {
+      "disease": "Chilblain (recurrent localized itching, swelling, pain & redness of  fingers/ toes/ears due to mild frost bite)",
+      "treatment": "Lu 9↑"
+    },
+    {
+      "disease": "Coma (state of deep unconsciousness that cannot be aroused)",
+      "treatment": "GV 19↑"
+    },
+    {
+      "disease": "Common Cold - Due to exposure to cold",
+      "treatment": "Lu 7 ↓"
+    },
+    {
+      "disease": "Common Cold - Due to exposure to heat",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Coldness - Ice cold extremities/bones",
+      "treatment": "GV 14↑"
+    },
+    {
+      "disease": "Coldness - Cold bones",
+      "treatment": "K 7 ↑"
+    },
+    {
+      "disease": "Coldness - Cold feet",
+      "treatment": "Liv 3↓"
+    },
+    {
+      "disease": "Coldness - Ice cold feet",
+      "treatment": "K 7↑"
+    },
+    {
+      "disease": "Coldness - To prevent the consequences of chilling",
+      "treatment": "GV 10 (salt moxa)"
+    },
+    {
+      "disease": "Coldness - Joints pain due to cold wind ",
+      "treatment": "St 37↓"
+    },
+    {
+      "disease": "Coldness - Chills & cold feet",
+      "treatment": "Sp 1↓"
+    },
+    {
+      "disease": "Coldness - Chills",
+      "treatment": "CV 9↓"
+    },
+    {
+      "disease": "Coldness - Chills - excess  ",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Colic & diarrhea with flatulence",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Hepatic/Nephritic Colic (colic due to liver/kidney disorders)",
+      "treatment": "UB 23↓"
+    },
+    {
+      "disease": "Constipation – chronic",
+      "treatment": " St 42↓,CV 8 ↑"
+    },
+    {
+      "disease": "Cough - Bronchitis, due to",
+      "treatment": "UB 12↓"
+    },
+    {
+      "disease": "Cough - Eosinophilia, due to",
+      "treatment": "UB 17↓"
+    },
+    {
+      "disease": "Cough - Chronic cough",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Cough - Cough with profuse, white sticky phlegm",
+      "treatment": "Lu 5↓"
+    },
+    {
+      "disease": "Cough - Dry hacking (haltingly) cough",
+      "treatment": "CV 16↑"
+    },
+    {
+      "disease": "Cough - Nervous cough with dyspnea (cough with difficult breathing of  nervous origin)",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Cough - Spasmodic cough (cough along with muscular contracture)",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Cough - Spasmodic cough with dyspnea (cough along with muscular contracture and breathing difficulty)",
+      "treatment": "GV 10↑"
+    },
+    {
+      "disease": "Cough - Whooping cough (barking cough mostly affecting children)",
+      "treatment": "Lu 1↓"
+    },
+    {
+      "disease": "Cramps - general",
+      "treatment": "Liv 2↓,Liv 3↓"
+    },
+    {
+      "disease": "Cramps in abdomen",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Cramps along with abdominal distention",
+      "treatment": "CV 9↓"
+    },
+    {
+      "disease": "Cramps in calf/forearm",
+      "treatment": "G 44 ↓"
+    },
+    {
+      "disease": "Writer’s cramps (cramps affecting finger muscles after prolonged  writing)  ",
+      "treatment": "SI 4↓,UB 15↓,H 3↓"
+    },
+    {
+      "disease": "Cyanosis – skin (bluish discoloration of skin due to oxygen/ hemoglobin deficiency)",
+      "treatment": "Liv 3↓"
+    },
+
+    {
+      "disease": "Deaf-mutism (deafness & dumbness)",
+      "treatment": "GV 15↑"
+    },
+    {
+      "disease": "Diabetic neuropathy (disorder of nerves due to diabetes)",
+      "treatment": "St 40↑"
+    },
+    {
+      "disease": "Diabetes - Along with increased muscle tone",
+      "treatment": "TW 4↓"
+    },
+    {
+      "disease": "Diabetes - Along with weight loss",
+      "treatment": "K 3 ↓"
+    },
+    {
+      "disease": "Diabetes - Along with decreased urine & dry skin/mouth/tongue",
+      "treatment": "K 1 ↓"
+    },
+    {
+      "disease": "Diabetes - Along with impotency/itching in genitals",
+      "treatment": "K 2 ↓"
+    },
+    {
+      "disease": "Diarrhea - Chronic",
+      "treatment": "St 25↓"
+    },
+    {
+      "disease": "Diarrhea - Acute ",
+      "treatment": "Sp 4↑"
+    },
+    {
+      "disease": "Diaphragm disorders - Spasm",
+      "treatment": "K 3↓"
+    },
+    {
+      "disease": "Diaphragm disorders - Blockage, causing heavy breathing",
+      "treatment": "LI 6 ↓"
+    },
+    {
+      "disease": "Diaphragm disorders - Heaviness & discomfort",
+      "treatment": "UB 12↓"
+    },
+    {
+      "disease": "Diphtheria (acute infectious disease marked by formation of gray-white pseudo membrane within nose, throat or larynx)",
+      "treatment": "CV 18↓,Lu 11↓"
+    },
+    {
+      "disease": "Disequilibrium – physical, causing unstable gait",
+      "treatment": "CV 18↓"
+    },
+    {
+      "disease": "Drooling (flow of saliva outside of lips)",
+      "treatment": "St 4↑"
+    },
+    {
+      "disease": "Dysentery (frequent stool containing blood & mucus along with inflammation of intestines)",
+      "treatment": "St 25↓, St 37↓"
+    },
+    {
+      "disease": "Dysphagia (difficulty in swallowing)",
+      "treatment": " K 7↑,K 2↓"
+    },
+
+    {
+      "disease": "Ear disorders - Otorrhoea  (discharge from the ear due to infection)",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Ear disorders - Hardness of hearing, tinnitus (noise in the ears) & vertigo",
+      "treatment": "TW 10↓"
+    },
+    {
+      "disease": "Ear disorders - Red and swollen ear lobe",
+      "treatment": "TW 20↓"
+    },
+    {
+      "disease": "Ear disorders - Inflammation of external ear canal",
+      "treatment": "SI 19↓"
+    },
+    {
+      "disease": "Epistaxis (nose bleed)",
+      "treatment": "CV 1↓"
+    },
+    {
+      "disease": "Epilepsy (disturbance of electrical activity of brain resulting in unconsciousness, abnormal motion phenomena, etc)",
+      "treatment": "St 40↓"
+    },
+    {
+      "disease": "Epilepsy seizure during day",
+      "treatment": "UB 62↓"
+    },
+    {
+      "disease": "Epilepsy seizure during night",
+      "treatment": "K 6 ↓"
+    },
+    {
+      "disease": "Eosinophilia (increase in number of eosinophils in blood)",
+      "treatment": "UB 17↓"
+    },
+    {
+      "disease": "Expectoration - Fetid (foul odor) & excess expectoration",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Expectoration - To expel phlegm  from chest",
+      "treatment": "St 40↑"
+    },
+    {
+      "disease": "Eye disorders - All affections",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Eye disorders - Blurred vision & declining eye sight – aged",
+      "treatment": "St 36↑"
+    },
+    {
+      "disease": "Eye disorders - Cyst of eyelid    ",
+      "treatment": "SI 7↓"
+    },
+    {
+      "disease": "Eye disorders - Cataract (opacity of eye lens)",
+      "treatment": "CV 6↑,G 37↓"
+    },
+    {
+      "disease": "Eye disorders - Blepharo – conjunctivitis (inflammation of eye lids &  conjunctiva)",
+      "treatment": "G 37↓"
+    },
+    {
+      "disease": "Eye disorders - Conjunctivitis (inflammation of conjunctiva) - acute     ",
+      "treatment": "LI 1↓"
+    },
+    {
+      "disease": "Eye disorders - Glaucoma (increase of intra ocular pressure)",
+      "treatment": "GV 10↑, G 37↓"
+    },
+    {
+      "disease": "Eye disorders - Infection/inflammation",
+      "treatment": "Ly 2a ↓"
+    },
+    {
+      "disease": "Eye disorders - Inflammation of external corner of eye    ",
+      "treatment": "G 43↓"
+    },
+    {
+      "disease": "Eye disorders - Optic nerve shrinkage",
+      "treatment": "G 37↓"
+    },
+    {
+      "disease": "Eye disorders - Myopia (near sightedness)",
+      "treatment": "K 5↑"
+    },
+    {
+      "disease": "Eye disorders - Mydriasis (dilation of pupil)",
+      "treatment": "GV 10↑"
+    },
+    {
+      "disease": "Eye disorders - Trachoma (a contagious diseases of conjunctiva & cornea)",
+      "treatment": "SI 4↑"
+    },
+    {
+      "disease": "Eye disorders - Inability to open eyes     ",
+      "treatment": "G 44 (opposite side)"
+    },
+    {
+      "disease": "Eye disorders - Night blindness (due to deficiency of vitamin A)",
+      "treatment": "LI 1↑, G 37↓"
+    },
+    {
+      "disease": "Eye disorders - Uncontrolled twitching of eye muscles    ",
+      "treatment": "SI 18↓"
+    },
+    {
+      "disease": "Eye disorders - Intense eye pain/continuous uncontrolled twitching/uncontrolled movement of eye ball/exophthalmos (abnormal protrusion of eyes)",
+      "treatment": "St 8↓"
+    },
+
+    {
+      "disease": "Face discoloration - Blackness of face (due to kidney problem)",
+      "treatment": "K 1↓"
+    },
+    {
+      "disease": "Face discoloration - Congested scarlet face",
+      "treatment": "GV 19↓"
+    },
+    {
+      "disease": "Face discoloration - Cyanosis (blueness due to oxygen deficiency)",
+      "treatment": "Liv 3↓"
+    },
+    {
+      "disease": "Facial tics (spasmodic, involuntary, repetitive muscular contraction of face)",
+      "treatment": "Lu 5↓"
+    },
+
+    {
+      "disease": "Fear/Phobia - Fear of closed space (claustrophobia)",
+      "treatment": "Lu 3↑, Lu 8↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of crowd (agoraphobia)",
+      "treatment": "Lu 3↑"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of cold",
+      "treatment": "UB 12 ↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of dark",
+      "treatment": "K 10↓, P 7↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of examination/stage",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of water",
+      "treatment": "CV 22↓, UB 12↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fear of wind",
+      "treatment": "UB 12↓"
+    },
+    {
+      "disease": "Fear/Phobia - Fearful child",
+      "treatment": "K 1↓"
+    },
+    {
+      "disease": "Fear/Phobia - Terror in children",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Fear/Phobia - Nocturnal terror",
+      "treatment": "GV 20 ↑"
+    },
+    {
+      "disease": "Fear/Phobia - Fear and excessive restlessness",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Female diseases - Miscarriage (premature expulsion of fetus from uterus before completion of pregnancy)",
+      "treatment": "Sp 4↓"
+    },
+    {
+      "disease": "Female diseases - Uterine fibroid, fibroma in breast",
+      "treatment": "CV 4↑"
+    },
+    {
+      "disease": "Female diseases - Frigidity (non arousal of sexual desire in a female)",
+      "treatment": "CV 3↑"
+    },
+    {
+      "disease": "Female diseases - Inflammation in pelvic area, ovary, urethra or vagina",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Female diseases - Problems of pregnancy",
+      "treatment": "K 9↑"
+    },
+    {
+      "disease": "Female diseases - Stopping or insufficiency of menses",
+      "treatment": "K 5↑"
+    },
+    {
+      "disease": "Female diseases - Uterine bleeding",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Female diseases - Lack of lochea discharge during labor",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Female diseases - Menopausal syndrome",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Female diseases - Menorrhagia (excessive menstruation)",
+      "treatment": "Liv 2↓,CV 3↓"
+    },
+    {
+      "disease": "Female diseases - Oophoritis (inflammation of ovary)",
+      "treatment": "UB 22↑,Liv 5↓"
+    },
+    {
+      "disease": "Female diseases - Tympamium with pain(gas and pain in intestines during pregnancy)    ",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Female diseases - Predated menstrual cycle",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Female diseases - Prolonged menstruation",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Female diseases - Post dated /excess menstruation",
+      "treatment": "Liv 6↑"
+    },
+    {
+      "disease": "Female diseases - Irregular menstrual cycle",
+      "treatment": "LI 11↑"
+    },
+    {
+      "disease": "Female diseases - Non normalization of dilated uterus after delivery",
+      "treatment": "CV 2↑"
+    },
+    {
+      "disease": "Female diseases - Dysmenorrhoea along with vertigo",
+      "treatment": "St 44 (moxa)"
+    },
+    {
+      "disease": "Female diseases - Acute burning sensation in urethra/vagina",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Female diseases - Painful child birth (for painless delivery)",
+      "treatment": "TW 5↓"
+    },
+    {
+      "disease": "Female diseases - Acute discomfort during pregnancy",
+      "treatment": "CV 14↓,LI 4↓"
+    },
+    {
+      "disease": "Female diseases - Intense pruritus (itching) /burning in vagina",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Female diseases - Chronic uterus complaint",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Female diseases - Breast cancer",
+      "treatment": "St 17↓"
+    },
+    {
+      "disease": "Female diseases - Uterus prolapse",
+      "treatment": "Sp 4 ↓,Liv 8↑"
+    },
+    {
+      "disease": "Female diseases - Insufficient lactation after delivery",
+      "treatment": "SI 1↓,G 41↓"
+    },
+    {
+      "disease": "Female diseases - Sensation of cold after delivery",
+      "treatment": "G 21↓"
+    },
+    {
+      "disease": "Female diseases - Agalactia (absence or failure of milk secretion)",
+      "treatment": "SI 1 ↓"
+    },
+    {
+      "disease": "Female diseases - Breasts ulcer",
+      "treatment": "G 41↓"
+    },
+    {
+      "disease": "Female diseases - Hemorrhagic discharge - continuous",
+      "treatment": "Liv 1↑"
+    },
+    {
+      "disease": "Female diseases - Painful period",
+      "treatment": "Liv 8 ↑"
+    },
+    {
+      "disease": "Female diseases - Atrophy of genitals",
+      "treatment": "Liv 8↑"
+    },
+    {
+      "disease": "Female diseases - Mastitis  (inflammation of breasts)",
+      "treatment": "G 41↓, G 21↓,SI 1↓"
+    },
+    {
+      "disease": "Female diseases - Nipple pain",
+      "treatment": "G 34 ↓"
+    },
+    {
+      "disease": "Female diseases - Genital pain",
+      "treatment": "Liv 5↓"
+    },
+    {
+      "disease": "Female diseases - Leucorrhoea (whitish discharge from vagina)",
+      "treatment": "K 3↑,K 7↑, Liv 5↑, St 25↓"
+    },
+    {
+      "disease": "Female diseases - Delayed or difficult birth",
+      "treatment": "Liv 11↑"
+    },
+    {
+      "disease": "Female diseases - Mal positioning of fetus",
+      "treatment": "UB 67↑"
+    },
+    {
+      "disease": "Female diseases - Metritis (inflammation of uterus)",
+      "treatment": "Liv 5↓"
+    },
+    {
+      "disease": "Female diseases - Vagina prolapse/shrinkage",
+      "treatment": "Liv 5↑"
+    },
+    {
+      "disease": "Fainting",
+      "treatment": "SI 8↓"
+    },
+    {
+      "disease": "Finger contracture – small finger",
+      "treatment": "H 8↑"
+    },
+    {
+      "disease": "Fistula(an abnormal passage between two internal organs or between an internal organ & body surface)",
+      "treatment": "St 25↓,Sp 5↓"
+    },
+    {
+      "disease": "Fissure (any cleft or groove)",
+      "treatment": "CV 12↓"
+    },
+    {
+      "disease": "Fits of weeping",
+      "treatment": "Lu 3↑"
+    },
+    {
+      "disease": "Fontanel (a soft spot on an infant’s skull) – retarded closure",
+      "treatment": "CV 6↑"
+    },
+
+    {
+      "disease": "Aerocoly  (large intestine distention due to gas)",
+      "treatment": "CV 17↓"
+    },
+    {
+      "disease": "Aerophagia (habitual swallowing of air)",
+      "treatment": "CV 17↓"
+    },
+    {
+      "disease": "Sluggish digestion",
+      "treatment": "St 41↑"
+    },
+    {
+      "disease": "Chronic dyspepsia (indigestion)",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Dyspeptic eructation (belching with burning in chest & throat)",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Eructation  (belching) immediately after food",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Enteritis (inflammation of intestine)",
+      "treatment": "CV 6↑,CV 12↓"
+    },
+    {
+      "disease": "Duodenal enteritis (inflammation of duodenum)",
+      "treatment": "Sp 4 ↓"
+    },
+    {
+      "disease": "Enterocolitis (inflammation of small intestine & colon)",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Hepatitis (inflammation of liver)",
+      "treatment": "CV 17↓"
+    },
+    {
+      "disease": "Acute gastritis (inflammation of stomach)",
+      "treatment": "UB 21↑, St 21↓"
+    },
+    {
+      "disease": "Chronic gastritis",
+      "treatment": "UB 21↓"
+    },
+    {
+      "disease": "Hepatic deficiency (sluggishness & contracture of liver)",
+      "treatment": "G 40↑"
+    },
+    {
+      "disease": "Hyperacidity in stomach",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Any liver problem",
+      "treatment": "Liv 6↓ "
+    },
+    {
+      "disease": "Congestion in liver",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Intestinal obstruction causing stoppage of food movement",
+      "treatment": "SI 3↑"
+    },
+    {
+      "disease": "Intestinal occlusion (narrowing /closure)",
+      "treatment": "LI 4↑"
+    },
+    {
+      "disease": "Intestinal parasites",
+      "treatment": "St 25↓,UB 21↓"
+    },
+    {
+      "disease": "Intestinal rumbling",
+      "treatment": "UB 21↑"
+    },
+    {
+      "disease": "Aerogastria (gas formation & distention of stomach)",
+      "treatment": "UB 15↓"
+    },
+    {
+      "disease": "Gastric heaviness",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Indigestion",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Food in wind pipe",
+      "treatment": "H 9 (press)"
+    },
+    {
+      "disease": "Burning sensation in throat, chest & abdomen",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Aversion to food and its smell",
+      "treatment": "Lu 1↑"
+    },
+    {
+      "disease": "Cramps & distension of stomach",
+      "treatment": "CV 9↓"
+    },
+    {
+      "disease": "Hard and stretched abdomen",
+      "treatment": "CV 11↓"
+    },
+    {
+      "disease": "Flatulence (gas in stomach/ intestines) with colic (abdomen pain), diarrhea (loose stools)",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Ghost possession",
+      "treatment": "P 5 ↓"
+    },
+
+    {
+      "disease": "Hair fall",
+      "treatment": "UB 54↑"
+    },
+    {
+      "disease": "Graying of hair",
+      "treatment": "St 39↓"
+    },
+    {
+      "disease": "Headache – top/vertex",
+      "treatment": "G 41↓"
+    },
+    {
+      "disease": "Head - heaviness",
+      "treatment": "GV 1↑"
+    },
+    {
+      "disease": "Head - shaking",
+      "treatment": "GV 1↑"
+    },
+    {
+      "disease": "Headache - Intermittent, aggravates on walking/touching",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Headache - Frontal with heat in head, cold feet and red eyes",
+      "treatment": "St 41↑"
+    },
+    {
+      "disease": "Hemiplegia (paralysis of one side of body)",
+      "treatment": "Liv 6↑ (on good side)"
+    },
+    {
+      "disease": "Heart problems",
+      "treatment": ""
+    },
+
+    {
+      "disease": "     Continuous heart pain",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "     Chronic cardiac disorders",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "     All acute valve affections, i.e.,stenosis (narrowing), insufficiency, etc    ",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "     Hypertrophied (enlarged) heart",
+      "treatment": "P 7↓"
+    },
+    {
+      "disease": "     Palpitation – violent",
+      "treatment": "CV 12 ↓"
+    },
+    {
+      "disease": "     Arrhythmia (irregular heart beat)   ",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "     Bradycardia (slow heart beat, i.e., less than 60 per minute)   ",
+      "treatment": "H 5↑,GV 25↑,H 9↑,K 7↑"
+    },
+    {
+      "disease": "     Pacemaker problem (inability of sino atrial node & other heart cells to properly initiate heart beats)",
+      "treatment": "H 6 (R) ↑, EAV point H 6a (R)↑"
+    },
+    {
+      "disease": "     Left ventricle hypertrophy (enlargement)",
+      "treatment": "P 7↓"
+    },
+    {
+      "disease": "     Myocarditis (inflammation of heart muscles)",
+      "treatment": "UB 64↓"
+    },
+    {
+      "disease": "     Tachycardia (abnormally rapid heart beat)",
+      "treatment": "H 7↓,P 7↓"
+    },
+    {
+      "disease": "Heel pain (tatalgia)",
+      "treatment": "St 43↓"
+    },
+    {
+      "disease": "Hiccup - General",
+      "treatment": "St 40↓,St 34↓"
+    },
+    {
+      "disease": "Hiccup- Constant",
+      "treatment": "UB 17↓"
+    },
+    {
+      "disease": "Hip joint disease, i.e., pain in hip & leg, leg thinned out & lengthened",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Hoarseness of voice",
+      "treatment": "CV 16↑"
+    },
+    {
+      "disease": "Hotness of palms without sweating",
+      "treatment": "P 9↑"
+    },
+    {
+      "disease": "Hotness of palms along with other diseases",
+      "treatment": "Lu 8↑"
+    },
+    {
+      "disease": "Herpes zoster (eruption of groups of small vesicles along the course of a nerve or nerves along with neuralgic pain, caused by chicken pox virus)",
+      "treatment": "TW 6,G 31↓"
+    },
+    {
+      "disease": "Voracious (excessive) hunger",
+      "treatment": "TW 4↓, CV 5↓"
+    },
+    {
+      "disease": "Quick satiation of excess hunger with little food",
+      "treatment": "UB 21↑"
+    },
+    {
+      "disease": "Excess food intake due to laptin hormone deficiency & weight gain    ",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Anorexia (lack or loss of appetite) due to dieting",
+      "treatment": "Sp 3↑"
+    },
+    {
+      "disease": "Lack of appetite",
+      "treatment": "UB 15↑"
+    },
+    {
+      "disease": "All disturbance of appetite",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Excess & frequent hunger (bulimia nervosa)",
+      "treatment": "Sp 15↓"
+    },
+    {
+      "disease": "Hypertension (High Blood Pressure) - Along with palpitation",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Hypertension (High Blood Pressure) - Due to tension",
+      "treatment": "G 20↓"
+    },
+    {
+      "disease": "Hypertension (High Blood Pressure) - Due to Liver fire",
+      "treatment": "Liv 3↓, Li 11↓"
+    },
+    {
+      "disease": "Hypertension (High Blood Pressure) - Due to anger /wind    ",
+      "treatment": "Liv 2↓"
+    },
+    {
+      "disease": "Hypertension (High Blood Pressure) - Due to kidney disorder",
+      "treatment": "K 1↓"
+    },
+    {
+      "disease": "Hypothermia  (temperature below normal)",
+      "treatment": "Liv 4↑,GV 14↑/ red"
+    },
+
+    {
+      "disease": "Impossibility of raising the arm",
+      "treatment": "TW 15↓"
+    },
+    {
+      "disease": "Inability to raise arm along with pain in shoulder & fore arm",
+      "treatment": "Lu 2↓"
+    },
+    {
+      "disease": "Intolerance of horizontal position",
+      "treatment": "Lu 3↓"
+    },
+    {
+      "disease": "Inability to clench fist/inability to bend or stretch elbow/inability to lift arm up to head.",
+      "treatment": "Lu 6↓"
+    },
+    {
+      "disease": "Inability to lie supine (on back)",
+      "treatment": "Lu 1↓"
+    },
+    {
+      "disease": "Infant’s diseases - Vomiting out of milk",
+      "treatment": "CV 16, CV 17 (moxa)"
+    },
+    {
+      "disease": "Infant’s diseases - Venereal disease (sexually transmitted disease)",
+      "treatment": "G 36↑"
+    },
+    {
+      "disease": "Infant’s diseases - Vomiting",
+      "treatment": "TW 19 (moxa)"
+    },
+    {
+      "disease": "Infant’s diseases - Vomiting & loose motion",
+      "treatment": "UB 21↓ or brown color"
+    },
+    {
+      "disease": "Infant’s diseases - Cerebral palsy (motor disorder due to brain damage, mostly during  delivery)",
+      "treatment": "GV 15↑"
+    },
+    {
+      "disease": "Infant’s diseases - Severe gastro enteritis (inflammation of stomach & intestines)   ",
+      "treatment": "Sp 4↓ or brown colour on original point"
+    },
+    {
+      "disease": "Infant’s diseases - Dysentery/diarrhea",
+      "treatment": "CV 8 (moxa)"
+    },
+    {
+      "disease": "Infant’s diseases - Mouth ulcer, halitosis (foul odor in mouth), gingivitis (inflammation of gums)",
+      "treatment": "P 8 ↓ /moxa"
+    },
+    {
+      "disease": "Infant’s diseases - Biological clock disturbance (sleep during day, awake & baby cry during night)",
+      "treatment": "GV 20 (finger moxa),P 9↑,H 9↑"
+    },
+    {
+      "disease": "Infant’s diseases - Indigestion & fever",
+      "treatment": "Lu 10↓"
+    },
+    {
+      "disease": "Infant’s diseases - Chronic cough",
+      "treatment": "Lu 10↓,UB 13↓"
+    },
+    {
+      "disease": "Infant’s diseases - Pigeon breast (prominence of sternum bone on chest)",
+      "treatment": "G 36↓"
+    },
+    {
+      "disease": "Infant’s diseases - Frequent awakening & crying",
+      "treatment": "St 7 ↑,G 40↑"
+    },
+    {
+      "disease": "Infant’s diseases - Marasmus (emaciation due to mal nutrition/mal absorption)",
+      "treatment": "St 42↑"
+    },
+    {
+      "disease": "Infection – chronic",
+      "treatment": "GV 14 ↓"
+    },
+    {
+      "disease": "Inflammation - Auditory meatus (external ear canal)",
+      "treatment": "TW 22↓,SI 19↓"
+    },
+    {
+      "disease": "Inflammation - Neck",
+      "treatment": "TW 13↓"
+    },
+    {
+      "disease": "Inflammation - Larynx",
+      "treatment": "TW 3↓"
+    },
+    {
+      "disease": "Inflammation - Upper limbs",
+      "treatment": "UB 36↓"
+    },
+    {
+      "disease": "Inflammation - Lacrimal gland",
+      "treatment": "GV 24↓"
+    },
+    {
+      "disease": "Inflammation - Internal inflammation - any where in body",
+      "treatment": "Sp 6↓., LI 11↓"
+    },
+    {
+      "disease": "Inflammation - Heart",
+      "treatment": "Sp 4↓, K 2↓"
+    },
+    {
+      "disease": "Inflammation - Spleen",
+      "treatment": "Sp 13↓"
+    },
+    {
+      "disease": "Inflammation - Pelvis",
+      "treatment": "St 28↓.,St 29↓"
+    },
+    {
+      "disease": "Inflammation - Kidney",
+      "treatment": "K 2a↓ (original)"
+    },
+    {
+      "disease": "Inflammation - Vagina",
+      "treatment": "Sp 9↓"
+    },
+    {
+      "disease": "Inflammation - Ovaries",
+      "treatment": "K 15↓"
+    },
+    {
+      "disease": "Inflammation - Parotid gland",
+      "treatment": "LI 2↓"
+    },
+    {
+      "disease": "Inflammation - Uterus",
+      "treatment": "Sp 6↓"
+    },
+    {
+      "disease": "Inflammation - Testicles",
+      "treatment": "Sp 4↓"
+    },
+    {
+      "disease": "Inflammation - Labia major",
+      "treatment": "K 10↓"
+    },
+    {
+      "disease": "Inflammation - Cecum",
+      "treatment": "G 20↓, G 29↓"
+    },
+    {
+      "disease": "Inflammation - Abdomen (lower)",
+      "treatment": "G 23↓"
+    },
+    {
+      "disease": "Inflammation - Urinary tract",
+      "treatment": "St 28↓, St 29↓"
+    },
+    {
+      "disease": "Inflammation - Anus",
+      "treatment": "UB 50↓"
+    },
+    {
+      "disease": "Inflammation - Hip/buttocks",
+      "treatment": "UB 51↓"
+    },
+    {
+      "disease": "Inflammation - Sub maxillary gland",
+      "treatment": "LI 10↓"
+    },
+    {
+      "disease": "Inflammation - Throat",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Inflammation - Thyroid gland",
+      "treatment": "St 44↓"
+    },
+    {
+      "disease": "Influenza (acute viral infection of respiratory tract)",
+      "treatment": "St 25↓"
+    },
+    {
+      "disease": "Inguinal trouble, i.e., pain, knot, hernia",
+      "treatment": "St 45↓, Sp 6↓"
+    },
+    {
+      "disease": "Immunity – weak, to enhance",
+      "treatment": "TW 15↑"
+    },
+    {
+      "disease": "Intoxication by drugs",
+      "treatment": "UB 13↓"
+    },
+    {
+      "disease": "Intoxication by carbon dioxide (suffocation due to oxygen deficiency)",
+      "treatment": "Lu 3↑"
+    },
+    {
+      "disease": "Injury - peripheral nervous system/sacro - coccygeal region",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Jaundice (disease marked by yellowness of sclera & skin)",
+      "treatment": "Sp 15↓"
+    },
+    {
+      "disease": "Larynx Problems - Laryngitis (inflammation of larynx)",
+      "treatment": "Ly 4a↓ (original)"
+    },
+    {
+      "disease": "Larynx Problems - Paralysis",
+      "treatment": "St 42↓, Sp 4↓"
+    },
+    {
+      "disease": "Legs Problem - Calf pain",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Legs Problem - Foot pain",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Legs Problem - Foot drop, walking difficulty",
+      "treatment": "St 42↑"
+    },
+    {
+      "disease": "Legs Problem - Soles hot     ",
+      "treatment": "UB 67↓"
+    },
+    {
+      "disease": "Legs Problem - Legs cold",
+      "treatment": "G 37↓"
+    },
+    {
+      "disease": "Legs Problem - Feet pain/numbness/heaviness  ",
+      "treatment": "UB 61↑"
+    },
+    {
+      "disease": "Legs Problem - Leg pain",
+      "treatment": "St 31↓, St 45↓"
+    },
+    {
+      "disease": "Legs Problem - Leg - inability to raise",
+      "treatment": "St 31↓"
+    },
+    {
+      "disease": "Legs Problem - Knee pain with sound",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Legs Problem - Knee bending problem",
+      "treatment": "Liv 7↓"
+    },
+    {
+      "disease": "Legs Problem - Knee arthritis",
+      "treatment": "UB 15↑, Lu 3↑"
+    },
+    {
+      "disease": "Legs Problem - Knee pain & swelling",
+      "treatment": "UB 23↑"
+    },
+    {
+      "disease": "Legs Problem - Buttocks - any problem",
+      "treatment": "UB 51"
+    },
+    {
+      "disease": "Legs Problem - Thigh - any problem",
+      "treatment": "UB 54"
+    },
+    {
+      "disease": "Legs Problem - Calf - any problem",
+      "treatment": "UB 57"
+    },
+    {
+      "disease": "Liver abscess",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Limpness of muscles – legs, elbows, eyes, etc.",
+      "treatment": "Si 7↓"
+    },
+    {
+      "disease": "Lithiasis (formation of stones)",
+      "treatment": "G 40↑, G 25↓"
+    },
+    {
+      "disease": "Lumbar Problems - Pain along with difficulty in bending",
+      "treatment": "UB 51↓"
+    },
+    {
+      "disease": "Lumbar Problems - Pain radiating to scrotum",
+      "treatment": "St 39↓"
+    },
+    {
+      "disease": "Lumbar Problems - Pain – acute/severe",
+      "treatment": "UB 56↓"
+    },
+    {
+      "disease": "Lungs – heaviness/burning",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Lumps/Knots - Lumps in thyroid, uterus",
+      "treatment": "St 40↓"
+    },
+    {
+      "disease": "Lumps/Knots - Knots/swelling in lymph gland",
+      "treatment": "TW 10↓"
+    },
+    {
+      "disease": "Lumps/Knots - Lumps/knots below skin",
+      "treatment": "St 40 ↓"
+    },
+    {
+      "disease": "Male diseases - Painful erection at night",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Male diseases - Fatigue due to masturbation",
+      "treatment": "GV 6↑"
+    },
+    {
+      "disease": "Male diseases - Erotic mania (excessive sexual thoughts)",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Male diseases - Chronic masturbation habit",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Male diseases - Orchitis (inflammation of testis)",
+      "treatment": "UB 22↑, Liv 6↓"
+    },
+    {
+      "disease": "Male diseases - Maturing problem",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Male diseases - Hypertrophy (enlargement) of prostrate",
+      "treatment": "UB 28↓"
+    },
+    {
+      "disease": "Male diseases - Insufficient sperms",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Male diseases - Excessive Sexual desire (satyriasis)",
+      "treatment": "GV 13↓"
+    },
+    {
+      "disease": "Male diseases - Interrupted intercourse (inveterate onanism)",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Male diseases - Shrunken testicles/ascended testis/impotency",
+      "treatment": "St 29↑"
+    },
+    {
+      "disease": "Male diseases - Neuralgia of scrotum",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Measles (rubeola) Acute",
+      "treatment": "LI 4↓"
+    },
+    {
+      "disease": "Measles (rubeola) Chronic",
+      "treatment": "GV 6↓"
+    },
+    {
+      "disease": "Memory problems - Forgetfulness",
+      "treatment": "Lu 7↓,H 9↑, H 3 ↓"
+    },
+    {
+      "disease": "Memory problems - Forgetfulness –recent",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Memory problems - Inability to comprehend",
+      "treatment": "H 9↑"
+    },
+    {
+      "disease": "Memory problems - Poor memory",
+      "treatment": "Liv 1↑"
+    },
+    {
+      "disease": "Memory problems - Memory recall problem",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Memory problems - Inability to forget",
+      "treatment": "LI 11↓"
+    },
+    {
+      "disease": "Menier’s disease (deafness, tinnitus & dizziness due to ear disorder)",
+      "treatment": "GV 20↑,G 43↓"
+    },
+    {
+      "disease": "Mental diseases - Despair (sense of hopelessness)",
+      "treatment": "GV 9↓"
+    },
+    {
+      "disease": "Mental diseases - Apathy (lack of feeling or emotion)",
+      "treatment": "K 7↑"
+    },
+    {
+      "disease": "Mental diseases - Demoniac possession (possession by ghosts)",
+      "treatment": "Lu 5↓, GV 6↓"
+    },
+    {
+      "disease": "Mental diseases - Distraught (mental restlessness)",
+      "treatment": "GV 10↑"
+    },
+    {
+      "disease": "Mental diseases - Excess excitability",
+      "treatment": "GV 19↓"
+    },
+    {
+      "disease": "Mental diseases - Erethismus (tendency to make mountain out of mole hill,  resentful)    ",
+      "treatment": "CV 5↓"
+    },
+    {
+      "disease": "Mental diseases - Hallucination (a false sense perception of sight/ touch/ sound/smell/ taste)",
+      "treatment": "GV 1↓"
+    },
+    {
+      "disease": "Mental diseases - Hypochondriasis (morbid anxiety of one’s health)",
+      "treatment": "Liv 8↑"
+    },
+    {
+      "disease": "Mental diseases - Intolerance",
+      "treatment": "GV 13↓"
+    },
+    {
+      "disease": "Mental diseases - Irritation",
+      "treatment": "GV 12↓"
+    },
+    {
+      "disease": "Mental diseases - Desire to kill    ",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Mental diseases - Maniac state (disordered mental state of extreme excitement/obsessive preoccupation with something)",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Mental diseases - Mental Disorder",
+      "treatment": "Lu 9↑"
+    },
+    {
+      "disease": "Mental diseases - Negligent",
+      "treatment": "GV 10↑"
+    },
+    {
+      "disease": "Mental diseases - Neurosis (an emotion anxiety disorder caused by unresolved  conflicts)   ",
+      "treatment": "UB 65↓"
+    },
+    {
+      "disease": "Mental diseases - Over excitement",
+      "treatment": "GV 11↓"
+    },
+
+    {
+      "disease": "Mental diseases - Psycho - neurosis",
+      "treatment": "St 40↓"
+    },
+    {
+      "disease": "Mental diseases - Exaggerated reflexes    ",
+      "treatment": "GV 13↑"
+    },
+    {
+      "disease": "Mental diseases - Semantic disturbance (inability to comprehend/use words)",
+      "treatment": "SI 3↑"
+    },
+    {
+      "disease": "Mental diseases - Sadness",
+      "treatment": "CV 7↑"
+    },
+    {
+      "disease": "Mental diseases - Extravagant speech",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Mental diseases - Suicidal tendency",
+      "treatment": "GV 15↓"
+    },
+    {
+      "disease": "Mental diseases - Inability to coordinate thoughts",
+      "treatment": "GV 19↑"
+    },
+    {
+      "disease": "Mental diseases - Timidity",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Mental diseases - Lost sense of values",
+      "treatment": "GV 12↓"
+    },
+    {
+      "disease": "Mental diseases - Fear of death",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Mental diseases - Spastic (uncontrolled/unjustified) laughter",
+      "treatment": "Lu 7↑"
+    },
+    {
+      "disease": "Mental diseases - Uncontrolled seizure of laughter",
+      "treatment": "LI 5↓"
+    },
+    {
+      "disease": "Mental diseases - Laughter – incessant/loud",
+      "treatment": "P 8↓"
+    },
+    {
+      "disease": "Mental diseases - Depression, forgetfulness, confusion",
+      "treatment": "Lu 3↑"
+    },
+    {
+      "disease": "Mental diseases - Depression, crying - frequent",
+      "treatment": "Lu 3↓"
+    },
+    {
+      "disease": "Mental diseases - Depression/sadness, grief, worry",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Mental diseases - Depression, anxiety, aloofness",
+      "treatment": "K 4↑"
+    },
+    {
+      "disease": "Mental diseases - Insanity",
+      "treatment": "GV 16↓"
+    },
+    {
+      "disease": "Mental diseases - Brain power, to improve",
+      "treatment": "GV 25↑"
+    },
+    {
+      "disease": "Mental diseases - Hysteria (mental disorder marked by lack of control over acts & emotions)",
+      "treatment": "St 40↓,GV 13↓"
+    },
+    {
+      "disease": "Mental diseases - Presence of mind – reduced",
+      "treatment": "P 4 ↓"
+    },
+    {
+      "disease": "Inflammation of mouth",
+      "treatment": "GV 12↓"
+    },
+    {
+      "disease": "Dry mouth with aversion to drinking",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Dryness in mouth & pharynx",
+      "treatment": "Lu 9↑"
+    },
+    {
+      "disease": "Dry mouth with great thirst",
+      "treatment": "TW 4↑"
+    },
+    {
+      "disease": "Blisters on lips & mouth due to fever",
+      "treatment": "CV 24↓"
+    },
+    {
+      "disease": "Difficulties in mastication",
+      "treatment": "TW 20 (moxa)"
+    },
+    {
+      "disease": "Violent contracture of lips",
+      "treatment": "TW 21↑"
+    },
+    {
+      "disease": "Red rimmed mouth ulcer",
+      "treatment": "LI 7↓"
+    },
+    {
+      "disease": "Lock jaw",
+      "treatment": "TW 22↓"
+    },
+    {
+      "disease": "Food stuck in throat",
+      "treatment": "CV 16↑"
+    },
+    {
+      "disease": "Sanguinolent saliva (bloody tinge in saliva)",
+      "treatment": "SI 15↑"
+    },
+    {
+      "disease": "Uncontrolled flow of saliva",
+      "treatment": "St 39↓"
+    },
+    {
+      "disease": "Food/ water in wind pipe",
+      "treatment": "H 9 (press)"
+    },
+    {
+      "disease": "Sialorrhoea (Excess salivation but mouth feels dry)",
+      "treatment": "CV 7↑"
+    },
+    {
+      "disease": "Stomatitis (generalized inflammation of the mouth cavity)",
+      "treatment": "St 42↓"
+    },
+    {
+      "disease": "Bitter taste in mouth",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Bitter taste in mouth with nausea & dizziness",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Nausea & vomiting",
+      "treatment": "St 21↑,St 34↓"
+    },
+    {
+      "disease": "Neck stiffness",
+      "treatment": "P 7↓,TW 5↑"
+    },
+    {
+      "disease": "Nephroptosis (downward displacement of kidney)",
+      "treatment": "G 25↓"
+    },
+    {
+      "disease": "Nerve problems - To tonify the nerves deeply",
+      "treatment": "GV 6↑"
+    },
+    {
+      "disease": "Nerve problems - Neuritis",
+      "treatment": "Sp 2↑"
+    },
+    {
+      "disease": "Axilla neuralgia",
+      "treatment": "G 40↓"
+    },
+    {
+      "disease": "Cranial neuralgia",
+      "treatment": "G 7↓"
+    },
+    {
+      "disease": "Trigeminal neuralgia",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Facial Neuralgia    ",
+      "treatment": "Lu 7↓,UB 9↓,St 3↓, St 4↓"
+    },
+    {
+      "disease": "Cheek neuralgia",
+      "treatment": "G 43↓"
+    },
+    {
+      "disease": "Frontal neuralgia",
+      "treatment": "UB 2↓,St 8↓"
+    },
+    {
+      "disease": "Temple neuralgia",
+      "treatment": "G 1,G 37↓"
+    },
+    {
+      "disease": "Ocular (eye) neuralgia",
+      "treatment": "UB 9↓,St 2↓"
+    },
+    {
+      "disease": "Dental neuralgia    ",
+      "treatment": "CV 24↓,LI 2↓, LI 5↓,St 3↓"
+    },
+    {
+      "disease": "Lower teeth neuralgia    ",
+      "treatment": "St 5↓,St 6↓, St 7↓,LI 16↓"
+    },
+    {
+      "disease": "Upper teeth neuralgia",
+      "treatment": "SI 18↓"
+    },
+    {
+      "disease": "Neck neuralgia",
+      "treatment": "G 7, LI 10↓"
+    },
+    {
+      "disease": "Occipital neuralgia",
+      "treatment": "TW 12↓"
+    },
+    {
+      "disease": "Scrofula neuralgia",
+      "treatment": "LI 14↓"
+    },
+    {
+      "disease": "Intercostals neuralgia",
+      "treatment": "Lu 9↓,Lu 2↓"
+    },
+    {
+      "disease": "Chest neuralgia",
+      "treatment": "Liv 3↓"
+    },
+    {
+      "disease": "Breast neuralgia",
+      "treatment": "Liv 3↓, Lu 4↓"
+    },
+    {
+      "disease": "Shoulder neuralgia",
+      "treatment": "UB 5↓,LI 3↓"
+    },
+    {
+      "disease": "Scapula neuralgia",
+      "treatment": "Lu 5↓,LI 4↓"
+    },
+    {
+      "disease": "Thoracic nerve neuralgia",
+      "treatment": "UB 11↓,SI 17↓"
+    },
+    {
+      "disease": "Dorso lumber neuralgia",
+      "treatment": "UB 13↓"
+    },
+    {
+      "disease": "Sacral neuralgia    ",
+      "treatment": "UB 27↓,UB 28↓,UB 30↓"
+    },
+    {
+      "disease": "Lumber neuralgia    ",
+      "treatment": "Liv 1↓,GV 2↓, GV 3↓,G 38↓"
+    },
+    {
+      "disease": "Uterus neuralgia    ",
+      "treatment": "Liv 1↓,G 26↓,G 27↓, CV 3↓"
+    },
+    {
+      "disease": "Abdomen neuralgia",
+      "treatment": "UB 28↓"
+    },
+    {
+      "disease": "Epigastrium neuralgia",
+      "treatment": "St 23↓"
+    },
+    {
+      "disease": "Lower abdomen neuralgia",
+      "treatment": "St 26↓,UB 28↓,UB 53↓"
+    },
+    {
+      "disease": "Genital neuralgia",
+      "treatment": "UB 47↓"
+    },
+    {
+      "disease": "Scrotum neuralgia",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Inguinal neuralgia",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Leg neuralgia",
+      "treatment": "Sp 6↓,K 6↓"
+    },
+    {
+      "disease": "Lower limb neuralgia",
+      "treatment": "G 39↓, K 8↓"
+    },
+    {
+      "disease": "Thigh neuralgia",
+      "treatment": "UB 59↓"
+    },
+    {
+      "disease": "Thigh inner muscle neuralgia",
+      "treatment": "Liv 8↓"
+    },
+    {
+      "disease": "Thigh skin neuralgia",
+      "treatment": "G 30↓, G 31↓,G 32↓,G 34↓"
+    },
+    {
+      "disease": "Knee neuralgia",
+      "treatment": "St 34↓, St 35↓"
+    },
+    {
+      "disease": "Popliteal neuralgia",
+      "treatment": "UB 53↓."
+    },
+    {
+      "disease": "Calf neuralgia",
+      "treatment": "G 37↓,UB 53↓"
+    },
+    {
+      "disease": "Fibular neuralgia",
+      "treatment": "G 35↓, G 36↓"
+    },
+    {
+      "disease": "Ankle neuralgia",
+      "treatment": "G 37↓"
+    },
+    {
+      "disease": "Foot dorsum neuralgia",
+      "treatment": "G 42↓"
+    },
+    {
+      "disease": "Wrist neuralgia",
+      "treatment": "SI 10↓,SI 11↓"
+    },
+    {
+      "disease": "Arm neuralgia",
+      "treatment": "Lu 3↓,LI 3↓, LI 12↓, LI 14↓"
+    },
+    {
+      "disease": "Radial nerve neuralgia",
+      "treatment": "Lu 8↓"
+    },
+    {
+      "disease": "Arm anterior surface neuralgia    ",
+      "treatment": "Lu 9↓,SI 1↓,SI 2↓, Sp 1↓"
+    },
+    {
+      "disease": "Arm neuralgia with intercostals neuralgia",
+      "treatment": "Lu 9↓"
+    },
+    {
+      "disease": "Shoulder posterior surface neuralgia",
+      "treatment": "LI 2↓"
+    },
+    {
+      "disease": "Scapula to wrist neuralgia",
+      "treatment": "LI 6↓"
+    },
+    {
+      "disease": "Scapula to elbow neuralgia ",
+      "treatment": "LI 11↓"
+    },
+    {
+      "disease": "Forearm neuralgia",
+      "treatment": "SI 1↓,SI 2↓,TW 1↓,St 18↓"
+    },
+    {
+      "disease": "Forearm to neck",
+      "treatment": "TW 1↓"
+    },
+    {
+      "disease": "Elbow neuralgia",
+      "treatment": "LI 11↓, TW 5↓"
+    },
+    {
+      "disease": "Finger neuralgia",
+      "treatment": "H 7↓ (opposite side)"
+    },
+    {
+      "disease": "Ring & little finer neuralgia",
+      "treatment": "TW 5↓ (opposite side)"
+    },
+    {
+      "disease": "Ring finger neuralgia",
+      "treatment": "P 7↓"
+    },
+    {
+      "disease": "Index & middle finger neuralgia",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Thumb neuralgia",
+      "treatment": "Lu 7↑,LI 6↑ (opposite side)"
+    },
+    {
+      "disease": "Base of thumb neuralgia",
+      "treatment": "Lu 9↓, LI 5↓(same side)"
+    },
+    {
+      "disease": "Palm & finger neuralgia",
+      "treatment": "SI 7↓"
+    },
+    {
+      "disease": "Palm neuralgia",
+      "treatment": "LI 13↓"
+    },
+    {
+      "disease": "Rhinophyma (chronic skin disease of nose marked by redness & swelling)",
+      "treatment": "GV 25↓"
+    },
+    {
+      "disease": "Nose bleed",
+      "treatment": "UB 64 ↓,K 4↑"
+    },
+    {
+      "disease": "Nose blocked",
+      "treatment": "UB 58↓"
+    },
+    {
+      "disease": "Allergic rhinitis (inflammation of nose due to allergy)",
+      "treatment": "GV 25↓"
+    },
+    {
+      "disease": "Occipital headache/heaviness",
+      "treatment": "GV 16↓"
+    },
+    {
+      "disease": "Oedema (swelling)",
+      "treatment": ""
+    },
+    {
+      "disease": "Pitted edema of face & neck - Oedema (swelling)",
+      "treatment": "G 40↓"
+    },
+    {
+      "disease": "Tendency to edema - Oedema (swelling)",
+      "treatment": "H 9↑"
+    },
+    {
+      "disease": "Edema of lungs - Oedema (swelling)",
+      "treatment": "UB 13↑"
+    },
+    {
+      "disease": "Pitted type edema - anywhere - Oedema (swelling)",
+      "treatment": "CV 9↑"
+    },
+    {
+      "disease": "Edema of abdomen, face, limbs along with borborygmas (rumbling noise in intestines) - Oedema (swelling)",
+      "treatment": "St 43↓"
+    },
+    {
+      "disease": "Osteitis (inflammation of bone)",
+      "treatment": "Sp 5↓ "
+    },
+    {
+      "disease": "Osteomyelitis (inflammation of bone due to pyogenic infection)",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Acute pain",
+      "treatment": "CV 6↑,CV 3↓"
+    },
+    {
+      "disease": "Pain aggravated by cold water & inhibited by hot fomentation",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Piercing pain (aggravates on movement)",
+      "treatment": "Liv 2↓"
+    },
+    {
+      "disease": "Ribs pain",
+      "treatment": "TW 6"
+    },
+    {
+      "disease": "Calf muscles pain",
+      "treatment": "UB 57"
+    },
+    {
+      "disease": "Chronic heel pain (Tatalgia)",
+      "treatment": "St 43↓"
+    },
+    {
+      "disease": "Pain of entire arm",
+      "treatment": "LI 7↓"
+    },
+    {
+      "disease": "Pain in hip, knee, leg along with cold feet",
+      "treatment": "St 34↑"
+    },
+    {
+      "disease": "Dislocation of shoulders with severe pain",
+      "treatment": "SI 8↓"
+    },
+    {
+      "disease": "Sciatica pain accompanied by weakness",
+      "treatment": "G 33↑"
+    },
+    {
+      "disease": "Inflammation of ankle joint",
+      "treatment": "UB 59↑"
+    },
+    {
+      "disease": "Intercostal/lumbar neuralgia",
+      "treatment": "G 25↓"
+    },
+    {
+      "disease": "Inflammation of dorsum of foot",
+      "treatment": "G 42↑"
+    },
+    {
+      "disease": "Acute lower back sprain",
+      "treatment": "GV 26↓"
+    },
+    {
+      "disease": "Perifocal inflammation of shoulder",
+      "treatment": "St 38↓"
+    },
+    {
+      "disease": "Pain & swelling of fingers",
+      "treatment": "TW 2↓"
+    },
+    {
+      "disease": "Pain in bottom of foot",
+      "treatment": "UB 63↓"
+    },
+    {
+      "disease": "Inflammation - anywhere",
+      "treatment": "Lu 5↓"
+    },
+    {
+      "disease": "Sudden inflammation of brain & spinal cord",
+      "treatment": "P 9↑,H 7↓"
+    },
+    {
+      "disease": "Pain in dorsum of foot",
+      "treatment": "St 42↑"
+    },
+    {
+      "disease": "Parkinson’s disease (chronic disease of nervous system marked by tremors, rigidity & peculiar gait, etc.)",
+      "treatment": "UB 7↓,UB 15↑, UB 15↓"
+    },
+    {
+      "disease": "Portal hypertension (high B.P. in portal vein)",
+      "treatment": "Liv 1↓"
+    },
+    {
+      "disease": "Pneumonia",
+      "treatment": "UB 13↓"
+    },
+    {
+      "disease": "Paronychia (skin infection near finger/toe nail)",
+      "treatment": "CV 9↓"
+    },
+    {
+      "disease": "Phlegm- excess",
+      "treatment": "St 40↓,Sp 9↓"
+    },
+    {
+      "disease": "Piles - Chronic",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Piles - Hemorrhagic (bleeding)",
+      "treatment": "K 7↑"
+    },
+    {
+      "disease": "Pituita (acute, thick nasal discharge)",
+      "treatment": "G 39↑"
+    },
+    {
+      "disease": "Poornima/amavasya problems",
+      "treatment": "CV 6↑ - start treatment two days prior"
+    },
+    {
+      "disease": "Carbon mono oxide poisoning",
+      "treatment": "Lu 3 ↑"
+    },
+    {
+      "disease": "Food Poisoning",
+      "treatment": "K 9↑"
+    },
+    {
+      "disease": "Precocious senility (unusually early physical and mental deterioration associated with old age)",
+      "treatment": "GV 4↑"
+    },
+    {
+      "disease": "Problems after bathing",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Progressive muscular atrophy (gradual decrease in size of muscular tissues)",
+      "treatment": "SI 3↑"
+    },
+    {
+      "disease": "Prostate gland enlargement (symptoms – frequent urination at night, drop by drop urination)",
+      "treatment": "Liv 4↑"
+    },
+    {
+      "disease": "Raynaud’s disease (vascular disease mainly affecting fingers/toes & marked by numbness, inflammation & discoloration)",
+      "treatment": "Lu 9↑"
+    },
+    {
+      "disease": "Rectum problems - Sudden anal prolapse",
+      "treatment": "CV 8 (moxa)"
+    },
+    {
+      "disease": "Rectum problems - Inflammation of anus",
+      "treatment": "UB 50↓"
+    },
+    {
+      "disease": "Resuscitation (restoration of life)– after drowning",
+      "treatment": "CV 1 (press)"
+    },
+    {
+      "disease": "Scoliosis (lateral curvature of vertebral column)",
+      "treatment": "UB 64↑"
+    },
+    {
+      "disease": "Sciatica - Lumber pain & pain at back of leg",
+      "treatment": "UB 60↓"
+    },
+    {
+      "disease": "Sciatica - Lumber pain & pain on lateral side of leg",
+      "treatment": "G 30 ↓,G 31↓"
+    },
+    {
+      "disease": "Sebaceous glands(glands situated below skin & secreting sebum & opening into hair follicles) inflammation",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Sickness in morning",
+      "treatment": "TW 4↑, CV 12↑"
+    },
+    {
+      "disease": "Sinusitis (inflammation of paranasal sinus)",
+      "treatment": "LI 4↑,Ly 3↓"
+    },
+    {
+      "disease": "Erysipelas (redness &swelling of skin with fever& other systemic  symptoms)",
+      "treatment": "St 41↑"
+    },
+    {
+      "disease": "Furuncle (boil)",
+      "treatment": "K 2↓, G 38↓"
+    },
+    {
+      "disease": "Furunculosis (occurrence of many boils at a time)",
+      "treatment": "LI 11↑"
+    },
+    {
+      "disease": "Pustules (small, elevated, pus containing lesions of skin)",
+      "treatment": "GV 6↑"
+    },
+    {
+      "disease": "Dry, hot skin",
+      "treatment": "CV 13↓"
+    },
+    {
+      "disease": "Any type of skin disease",
+      "treatment": "UB 54↑,LI 11↓"
+    },
+    {
+      "disease": "Abscess of uterus neck",
+      "treatment": "CV 2↓"
+    },
+    {
+      "disease": "Pain in skin, aggravated by touch of cloth",
+      "treatment": "St 15↓"
+    },
+    {
+      "disease": "Throat abscess",
+      "treatment": "H 5↓"
+    },
+    {
+      "disease": "Bone abscess",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Vaginal pruritus (itching)",
+      "treatment": "CV 7↓, Liv 5↑"
+    },
+    {
+      "disease": "Urethra/vulva pruritus",
+      "treatment": "CV 3↓,CV 7↓,Liv 5↑"
+    },
+    {
+      "disease": "Intense pruritus – whole body",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Simple pruritus – whole body",
+      "treatment": "K 2↓"
+    },
+    {
+      "disease": "Infection & itching in groin",
+      "treatment": "Sp 11↓"
+    },
+    {
+      "disease": "Ulcers anywhere in body",
+      "treatment": "UB 65↓"
+    },
+    {
+      "disease": "Urticaria (transient appearance of slightly elevated red/pale patches on skin)",
+      "treatment": "St 32↓,UB 65↓"
+    },
+    {
+      "disease": "Prickly heat",
+      "treatment": "Sp 10 ↓,UB54↓"
+    },
+    {
+      "disease": "Formication (sensation of insect crawling on skin)",
+      "treatment": "CV 15↑"
+    },
+    {
+      "disease": "Proud flesh (granulated mass over an abscess), boils, fissures, chaps",
+      "treatment": "SI 4↓,H 5↑"
+    },
+    {
+      "disease": "Insomnia (inability to sleep)",
+      "treatment": "GV 19↓, K 6 ↑,UB 62↓"
+    },
+    {
+      "disease": "Hypersomnia (excessive sleep)",
+      "treatment": "GV 19↑, K 6↓,UB 62↑"
+    },
+    {
+      "disease": "Chronic insomnia",
+      "treatment": "CV 6↑,CV 12↓"
+    },
+    {
+      "disease": "To cause a patient to sleep",
+      "treatment": "Liv 10 ↓"
+    },
+    {
+      "disease": "Insomnia of the aged",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Insomnia due to fear",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Pacing the whole night/ inability to lie down",
+      "treatment": "UB 52↓"
+    },
+    {
+      "disease": "Dream disturbed sleep",
+      "treatment": "Sp 1↓"
+    },
+    {
+      "disease": "Nightmare",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Somnambulism (sleep walking)",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Esophageal spasm",
+      "treatment": "GV 11↓"
+    },
+    {
+      "disease": "Gastric spasm",
+      "treatment": "St 40↓"
+    },
+    {
+      "disease": "Internal spasm",
+      "treatment": "Liv 2↓"
+    },
+    {
+      "disease": "Violent spasm or contracture of the stomach  ",
+      "treatment": "GV 8↓"
+    },
+    {
+      "disease": "Spasm of the lower extremity",
+      "treatment": "G 32↑"
+    },
+    {
+      "disease": "Speech problem - Aphonia (loss of voice)",
+      "treatment": "H 5↑"
+    },
+    {
+      "disease": "Speech problem - Weak voice",
+      "treatment": "Lu 9↑"
+    },
+    {
+      "disease": "Speech problem - Inability to comprehend speech",
+      "treatment": "SI 3 ↑"
+    },
+    {
+      "disease": "Speech problem - Extravagant speech",
+      "treatment": "GV11↓"
+    },
+    {
+      "disease": "Spinal marrow disorders",
+      "treatment": "K 7↑"
+    },
+    {
+      "disease": "Spine Problems - Spine – excessive extension",
+      "treatment": "GV 16↓"
+    },
+    {
+      "disease": "Spine Problems - Strengthen/straighten spine in case of chronic backache",
+      "treatment": "Sp 3↑"
+    },
+    {
+      "disease": "Spine Problems - Lumbo sacral pain/ tail bone pain",
+      "treatment": "GV 19 ↓,GV 20↓"
+    },
+    {
+      "disease": "Spine Problems - Spinal T.B.",
+      "treatment": "UB 13↑,CV 6↑"
+    },
+    {
+      "disease": "Spleen disorders - General disorders    ",
+      "treatment": "Sp 15↓"
+    },
+    {
+      "disease": "Spleen disorders - Splenomegaly/inflammation of spleen",
+      "treatment": "Liv  7↓,Sp 15↓"
+    },
+    {
+      "disease": "Spleen disorders - Splenomegaly along with malaria",
+      "treatment": "Liv 13↓"
+    },
+    {
+      "disease": "Stomach disorders - Gastritis (inflammation of stomach) - acute/chronic",
+      "treatment": "St 25↓"
+    },
+    {
+      "disease": "Stomach disorders - Pain – severe",
+      "treatment": "St 34↓"
+    },
+    {
+      "disease": "Stomach disorders - Distention due to gas, chills",
+      "treatment": "Sp 15↓"
+    },
+    {
+      "disease": "Stomach disorders - Distention & pain due to gas",
+      "treatment": "Sp 3↓,St 40↑"
+    },
+    {
+      "disease": "Stool disorders - Fetid (foul odor) stool with undigested matter",
+      "treatment": "Lu 1↓"
+    },
+    {
+      "disease": "Stool disorders - Discoloured stool",
+      "treatment": "Liv 6↓"
+    },
+    {
+      "disease": "Stool disorders - Discolored stool with golden yellow urine",
+      "treatment": "UB 23↓"
+    },
+    {
+      "disease": "Stool disorders - Enteriform (semi solid) stool with mucous",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Study & teaching problems - To comprehend teachings",
+      "treatment": "H 9↑"
+    },
+    {
+      "disease": "Study & teaching problems - To teach with clarity",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Sunstroke",
+      "treatment": "GV 26↓,K 1↓"
+    },
+    {
+      "disease": "Suffocation in reclining position",
+      "treatment": "Lu 2 ↓"
+    },
+    {
+      "disease": "Suffocation - sudden, due to trachea obstruction",
+      "treatment": "LI 2↓"
+    },
+    {
+      "disease": "Suppuration (formation of pus) - General treatment",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Suppuration (formation of pus) - General tendency to suppuration",
+      "treatment": "TW 3↑"
+    },
+    {
+      "disease": "Suppuration (formation of pus) - Osseous suppuration (pus formation in bone)",
+      "treatment": "CV 9↓, CV 6↑"
+    },
+    {
+      "disease": "Sweating at night",
+      "treatment": "SI 3↓, H 6↑"
+    },
+    {
+      "disease": "Sweating  on head while eating (due to stomach heat)",
+      "treatment": "St 41↓"
+    },
+    {
+      "disease": "To cause a patient to sweat",
+      "treatment": "Liv 10↑"
+    },
+    {
+      "disease": "Swelling in body",
+      "treatment": "St 43↓"
+    },
+    {
+      "disease": "Swelling in Limbs",
+      "treatment": "St 37↓"
+    },
+    {
+      "disease": "Syncope (temporary loss of consciousness)",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Synovitis (inflammation of synovial membrane)",
+      "treatment": "Liv 2↓ ,K 2↓"
+    },
+    {
+      "disease": "Inflammation of teeth",
+      "treatment": "Ly 2↓"
+    },
+    {
+      "disease": "Toothache - lower",
+      "treatment": "LI 3↓,St 44↓"
+    },
+    {
+      "disease": "Upper jaw pain/ inflammation/node   ",
+      "treatment": "LI 4 ↓. ,GV 25↓"
+    },
+    {
+      "disease": "Mastication (chewing) problem",
+      "treatment": "TW 20↑,St6↑"
+    },
+    {
+      "disease": "Bleeding of gums",
+      "treatment": "St 44↓"
+    },
+    {
+      "disease": "Lower jaw pain",
+      "treatment": "St 44↓"
+    },
+    {
+      "disease": "Infection in teeth",
+      "treatment": "LI 6↓"
+    },
+    {
+      "disease": "Coldness in teeth",
+      "treatment": "LI 4↓,Lu 7↓"
+    },
+    {
+      "disease": "Protrusion of upper teeth",
+      "treatment": "Lu 5↓"
+    },
+    {
+      "disease": "Tuberculosis of lymph node",
+      "treatment": "G 41↓"
+    },
+    {
+      "disease": "Terror in children",
+      "treatment": "GV 21↑"
+    },
+    {
+      "disease": "Excess thirst",
+      "treatment": "Sp 4↓"
+    },
+    {
+      "disease": "Excess thirst with dry throat",
+      "treatment": "LI 6↓"
+    },
+    {
+      "disease": "Intense thirst",
+      "treatment": "LI 4↓,TW 5↓"
+    },
+    {
+      "disease": "Continuous thirst",
+      "treatment": "H 9↓"
+    },
+    {
+      "disease": "Throat Infection",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Throat Problem - Occlusion (obstruction/stiffness)",
+      "treatment": "St 39↓,UB 17↓"
+    },
+    {
+      "disease": "Pharyngitis/sore throat (inflammation of throat)",
+      "treatment": "Ly 4b↓ (original)"
+    },
+    {
+      "disease": "Tongue disorders - Painful, swollen tongue",
+      "treatment": "H 9↑"
+    },
+    {
+      "disease": "Tongue disorders - Pale & stiff tongue",
+      "treatment": "LI 4↓"
+    },
+    {
+      "disease": "Tongue disorders - Puffy tongue",
+      "treatment": "Lu 7↓"
+    },
+    {
+      "disease": "Tongue disorders - Flaccid (having deficient muscular tone) tongue, inability to  speak",
+      "treatment": "TW 1↑"
+    },
+    {
+      "disease": "Tonsil hypertrophy (enlargement)",
+      "treatment": "TW 4↑"
+    },
+    {
+      "disease": "Swollen ulcerated tonsils",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Tonsillitis (inflammation of tonsil)",
+      "treatment": "Lu 11↓"
+    },
+    {
+      "disease": "Inflammation- all five types of tonsils",
+      "treatment": "P 7↓"
+    },
+    {
+      "disease": "Torticolis/wryneck (stiff neck with torsion)",
+      "treatment": "GV 14↓,UB 64↑"
+    },
+    {
+      "disease": "Toxins – to expel",
+      "treatment": "K 8↑"
+    },
+    {
+      "disease": "Mountain sickness, i.e., breathlessness, dizziness, diarrhea.",
+      "treatment": "GV 12↓"
+    },
+    {
+      "disease": "Sea sickness, i.e., nausea, dizziness",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Bus/car sickness, i.e., vomiting, dizziness",
+      "treatment": "G 34↓"
+    },
+    {
+      "disease": "Aeroplane sickness, i.e., earache, deafness, dizziness",
+      "treatment": "TW 10↓"
+    },
+    {
+      "disease": "Motor cycle/scooter/cycle cramps",
+      "treatment": "Liv 3↓"
+    },
+    {
+      "disease": "Travel illness, i.e., falling ill during travel",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Travel phobia, i.e., frequent motions, urination & palpitation before travel",
+      "treatment": "H 7↓"
+    },
+    {
+      "disease": "Trembling – any body part",
+      "treatment": "UB 15↓"
+    },
+    {
+      "disease": "Ulcerating process in legs & feet",
+      "treatment": "St 35↓"
+    },
+    {
+      "disease": "Gastric (stomach) ulcer",
+      "treatment": "H 5↓"
+    },
+    {
+      "disease": "Varicose ulcer, i.e., ulcer on varicose veins",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Duodenal ulcer",
+      "treatment": "St 45↓"
+    },
+    {
+      "disease": "Anuria (absence of urine formation by kidneys)",
+      "treatment": "Liv 8↑"
+    },
+    {
+      "disease": "Glycosuria (presence of glucose in urine)",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Hydronephrosis (distension of renal pelvis & calices with urine due to ureter obstruction",
+      "treatment": "G 25↓"
+    },
+    {
+      "disease": "Oliguria (diminished formation of urine)",
+      "treatment": "UB 21↓"
+    },
+    {
+      "disease": "Polyuria (excessive excretion of urine)",
+      "treatment": "UB 21↓"
+    },
+    {
+      "disease": "Urethritis (inflammation of urethra)",
+      "treatment": "CV 4↓"
+    },
+    {
+      "disease": "Severe burning in urethra during/before/after urination",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Pain due to urethral stone",
+      "treatment": "CV 7↓"
+    },
+    {
+      "disease": "Albuminuria (presence of serum albumin in urine)",
+      "treatment": "CV 4↑"
+    },
+    {
+      "disease": "Incontinence of urine (inability to hold back urine)",
+      "treatment": "CV 6↑, Lu 9↓, LI 6↓"
+    },
+    {
+      "disease": "Incontinence of urine - females (due to weak sphincter)",
+      "treatment": "Sp 8↑."
+    },
+    {
+      "disease": "Prolapse of urinary bladder",
+      "treatment": "K 7↑"
+    },
+    {
+      "disease": "Bed wetting - children",
+      "treatment": "K 3↑"
+    },
+    {
+      "disease": "Retention of urine",
+      "treatment": "K 4↓."
+    },
+    {
+      "disease": "Painful, varicose (distended) veins",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Varicose ulcer",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Varicose veins along with hemorrhoids (piles)",
+      "treatment": "G 38↓"
+    },
+    {
+      "disease": "Vertigo (sensation of rotation) with tinnitus (noise in ears)",
+      "treatment": "TW 10↓"
+    },
+    {
+      "disease": "Vertigo without tinnitus",
+      "treatment": "TW 10↑"
+    },
+    {
+      "disease": "Acute vomiting",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Vomiting along with convulsion (repeated muscular contraction)",
+      "treatment": "UB 21↓"
+    },
+    {
+      "disease": "Vomiting during pregnancy",
+      "treatment": "CV 14↓"
+    },
+    {
+      "disease": "Emaciation (condition of being extremely lean) due to excess acetone in blood",
+      "treatment": "Liv 8↑"
+    },
+    {
+      "disease": "Asthenia (weakness)",
+      "treatment": "CV 3↓"
+    },
+    {
+      "disease": "Depletion of physical energy, i.e., weakness & fatigue",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Loss of physical & moral energy",
+      "treatment": "GV 13↑"
+    },
+    {
+      "disease": "Physical & mental fatigue",
+      "treatment": "GV 3↓"
+    },
+    {
+      "disease": "Inadequate growth in spite of good diet",
+      "treatment": "Sp 5↓"
+    },
+    {
+      "disease": "Nervous prostration, i.e., excess fatigue",
+      "treatment": "GV 13↑"
+    },
+    {
+      "disease": "Physical & mental weakness",
+      "treatment": "CV 10↑"
+    },
+    {
+      "disease": "Progressive emaciation",
+      "treatment": "CV 6↑"
+    },
+    {
+      "disease": "Profound physical & mental weakness ",
+      "treatment": "CV 4↑"
+    },
+    {
+      "disease": "Weight loss (emaciation), in spite of proper diet",
+      "treatment": "CV4↑, CV 6↑,CV 10↑,Liv 8↑"
+    },
+    {
+      "disease": "Intestinal worms",
+      "treatment": "UB 67↑,Sp 10↓"
+    },
+    {
+      "disease": "Intestinal parasites",
+      "treatment": "St 25↓"
+    },
+    {
+      "disease": "Formication (sensation of small insects creeping) all over the body ",
+      "treatment": "St 32↑"
+    },
+    {
+      "disease": "Writer’s cramp (spasmodic contractions of muscles of fingers, hand & forearm, with neuralgic pain)",
+      "treatment": "H 3↓"
+    },
+    {
+      "disease": "Frequent Yawning",
+      "treatment": "GV 13↑  , Lu 9↑,K 3↑"
     }
   ]
 }

@@ -27,6 +27,11 @@ export class MedSearchComponent implements OnInit {
     );
   }
 
+  public clean(): void {
+    this.control.setValue('');
+    this.medSelected.emit(null);
+  }
+
   private _filter(value: string): string[] {
     const filterValue = this._normalizeValue(value);
     return (this.meds || []).filter(disease => this._normalizeValue(disease.context).includes(filterValue))
@@ -34,7 +39,7 @@ export class MedSearchComponent implements OnInit {
   }
 
   private _normalizeValue(value: string): string {
-    return value.toLowerCase().replace(/\s/g, '');
+    return (value || '').toLowerCase().replace(/\s/g, '');
   }
 
   public optionSelected(value): void {

@@ -1,0 +1,58 @@
+[
+  {
+    "point": "Lu",
+    "description": "Lungs Meridian"
+  },
+  {
+    "point": "LI",
+    "description": "Large Intestine Meridian"
+  },
+  {
+    "point": "P",
+    "description": "Pericardium Meridian"
+  },
+  {
+    "point": "TW",
+    "description": "Triple Warmer/Burner Meridian"
+  },
+  {
+    "point": "H",
+    "description": "Heart Meridian"
+  },
+  {
+    "point": "SI",
+    "description": "Small Intestine Meridian"
+  },
+  {
+    "point": "G",
+    "description": "Gallbladder Meridian"
+  },
+  {
+    "point": "Liv",
+    "description": "Liver Meridian"
+  },
+  {
+    "point": "Sp",
+    "description": "Spleen Meridian"
+  },
+  {
+    "point": "St",
+    "description": "Stomach"
+  },
+  {
+    "point": "K",
+    "description": "Kidney Meridian"
+  },
+  {
+    "point": "UB",
+    "description": "Urinary Bladder Meridian"
+  },
+  {
+    "point": "CV",
+    "description": "Conception Vessel Meridian"
+  },
+  {
+    "point": "GV",
+    "description": "Governing Vessel Meridian"
+  }
+]

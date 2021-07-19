@@ -25,6 +25,9 @@ const MENUITEMS = [
     }
   },
   {
+    state: 'med/help', type: 'link', name: 'Help', icon: 'help_outline', display: () => true, action: clearCahce
+  },
+  {
     state: 'auth', type: 'link', name: 'Logout', icon: 'power_settings_new', display: () => true, action: clearCahce
   }
 ];

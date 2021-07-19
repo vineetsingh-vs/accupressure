@@ -11,12 +11,14 @@ import { CoreModule } from '@core/core.module';
 import { SharedModule } from '@shared/shared.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RegisterComponent } from './register/register.component';
+import { MedPromotionComponent } from './med-promotion/med-promotion.component';
+import { MedHelpComponent } from './med-help/med-help.component';
 
 
 
 
 @NgModule({
-  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent, RegisterComponent],
+  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent, RegisterComponent, MedPromotionComponent, MedHelpComponent],
   imports: [
     RouterModule.forChild(MedRoutes),
     CommonModule,

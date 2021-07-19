@@ -4,7 +4,7 @@
          placeholder="Search"
          [formControl]="control"
          [matAutocomplete]="auto" >
-  <mat-icon matSuffix class="close-icon" (click)="control.setValue('')">close</mat-icon>
+  <mat-icon matSuffix class="close-icon" (click)="clean()">close</mat-icon>
   <mat-autocomplete #auto="matAutocomplete">
     <mat-option (onSelectionChange)="optionSelected($event)" *ngFor="let med of filteredMeds | async | slice:0:10" [value]="med">
       {{med}}

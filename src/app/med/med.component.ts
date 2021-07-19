@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CoreHttpService } from '@core/services/http/http.service';
 import {Router} from '@angular/router';
-import { Med } from '@med/med.model';
+import { Med, Meridian } from '@med/med.model';
 import * as _ from 'lodash';
 
 @Component({
@@ -13,8 +13,10 @@ export class MedComponent implements OnInit {
 
   public fullMedDatas: Med[];
   public filteredMedDatas: Med[];
+  public meridian: Meridian[];
 
   public selectedMed: Med;
+
 
   constructor(private httpService: CoreHttpService, private router: Router) { }
 
@@ -24,6 +26,7 @@ export class MedComponent implements OnInit {
       this.processUrl(val.url);
     });
     this.processUrl(snapshotUrl);
+    this.getMeridian();
   }
 
   private filterUrl(url: string): string {
@@ -34,12 +37,21 @@ export class MedComponent implements OnInit {
     }[ctx];
   }
 
+  private getMeridian(): void {
+    this.httpService.getData('../../assets/model/meridian.json').toPromise()
+      .then((meri) => this.meridian = meri);
+  }
+
   private getData(url): void {
     this.httpService.getData('../../assets/model/disease.json').toPromise()
       .then((data) => {
         this.fullMedDatas = ((data || {}).diseases || [])
-          .map(disease => ({context: disease.disease, treatments: disease.Treatment, images: disease.image}));
-        this.filteredMedDatas = _.cloneDeep(this.fullMedDatas);
+          .map(disease => {
+            return ({
+              context: disease.disease,
+              treatments: (disease.treatment || '').split(',').filter(treatment => !!treatment)});
+          });
+        this.filteredMedDatas = [];
       });
   }
 
@@ -51,7 +63,10 @@ export class MedComponent implements OnInit {
   }
 
   public filterMed(med: Med) {
-    this.selectedMed = med;
-    this.filteredMedDatas = _.cloneDeep(this.fullMedDatas.filter(medi => medi.context === this.selectedMed.context));
+    this.filteredMedDatas = [];
+    if (!!med) {
+      this.selectedMed = med;
+      this.filteredMedDatas = _.cloneDeep(this.fullMedDatas.filter(medi => medi.context === (this.selectedMed || {}).context));
+    }
   }
 }

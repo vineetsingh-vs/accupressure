@@ -1,24 +1,32 @@
 <div fxLayout="row wrap" class="med-display" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
-  <mat-card (click)="toggle()" class="mat-elevation-z4"  fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)" >
+  <mat-card (click)="toggle()" class="mat-elevation-z4" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
     <mat-card-header>
-<!--      <div mat-card-avatar class="example-header-image"></div>-->
       <mat-card-title>{{medData.context}}</mat-card-title>
-<!--      <mat-card-subtitle>{{medData.subtitle}}</mat-card-subtitle>-->
     </mat-card-header>
-    <mat-card-content >
-      <div style="width: 75%">
-        <ngb-carousel *ngIf="medData.images">
-          <ng-template ngbSlide *ngFor="let image of medData.images">
+    <mat-card-content>
+      <fieldset class="field-set">
+        <legend>Treatments:</legend>
+        <ul>
+          <li *ngFor="let treatment of treatments">
+            <span>{{treatment.key}} - </span> <span>{{treatment.value}}</span>
+          </li>
+        </ul>
+      </fieldset>
+      <div class="display-img">
+        <ngb-carousel *ngIf="images">
+          <ng-template ngbSlide *ngFor="let image of images">
             <div class="picsum-img-wrapper">
-              <img src="{{'/assets/image/' + image}}" alt="Random slide">
+              <img src="{{image}}" alt="Random slide">
             </div>
-            <!--            <div class="carousel-caption">-->
-            <!--              <h3>{{ event.eventLocation }}</h3>-->
-            <!--              <p [innerText]="event.eventDescription"></p>-->
-            <!--            </div>-->
           </ng-template>
         </ngb-carousel>
       </div>
+
+      <div class="legend-container" style="padding: 1em 0">
+        <div class="legend-box">↑<span style="padding-left: .5em;">Tonification</span></div>
+        <div class="legend-box" style="margin-left: 1em;">↓<span style="padding-left: .5em;">Sedation</span></div>
+      </div>
+
     </mat-card-content>
   </mat-card>
 </div>

@@ -39,6 +39,7 @@ export class RegisterComponent implements OnInit {
         this.loading = false;
         if (!!user) {
           this.dataSource = [...this.dataSource, user];
+          localStorage.setItem('registeredUsers', JSON.stringify(this.dataSource));
           this.form.reset();
           this.updateValidity();
         }
@@ -56,6 +57,10 @@ export class RegisterComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    const registeredUsers = localStorage.getItem('registeredUsers');
+    if (!!registeredUsers) {
+      this.dataSource = JSON.parse(registeredUsers);
+    }
   }
 
   public updateValidity(): void {

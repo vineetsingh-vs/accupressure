@@ -7,7 +7,7 @@ import { MedHelpComponent } from '@med/med-help/med-help.component';
 export const MedRoutes: Routes = [
   {
     path: '',
-   redirectTo: 'point'
+   redirectTo: 'disease'
   },
   {
     path: 'point',

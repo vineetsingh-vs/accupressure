@@ -1,32 +1,43 @@
 <div fxLayout="row wrap" class="med-display" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
-  <mat-card (click)="toggle()" class="mat-elevation-z4" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
-    <mat-card-header>
-      <mat-card-title>{{medData.context}}</mat-card-title>
-    </mat-card-header>
-    <mat-card-content>
-      <fieldset class="field-set">
-        <legend>Treatments:</legend>
-        <ul>
-          <li *ngFor="let treatment of treatments">
-            <span>{{treatment.key}} - </span> <span>{{treatment.value}}</span>
-          </li>
-        </ul>
-      </fieldset>
-      <div class="display-img">
-        <ngb-carousel *ngIf="images">
-          <ng-template ngbSlide *ngFor="let image of images">
-            <div class="picsum-img-wrapper">
-              <img src="{{image}}" alt="Random slide">
-            </div>
-          </ng-template>
-        </ngb-carousel>
-      </div>
+  <div *ngIf="!zoomedImage; else zoomed">
+    <mat-card (click)="toggle()" class="mat-elevation-z4" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+      <mat-card-header>
+        <mat-card-title>{{medData.context}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <fieldset class="field-set">
+          <legend>Treatments:</legend>
+          <ul>
+            <li *ngFor="let treatment of treatments">
+              <span>{{treatment.key}} - </span> <span>{{treatment.value}}</span>
+            </li>
+          </ul>
+        </fieldset>
+        <div class="display-img">
+          <ngb-carousel *ngIf="images">
+            <ng-template ngbSlide *ngFor="let image of images">
+              <div class="picsum-img-wrapper">
+                <img (click)="zoom(image)" src="{{image}}" alt="Random slide">
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
 
-      <div class="legend-container" style="padding: 1em 0">
-        <div class="legend-box">↑<span style="padding-left: .5em;">Tonification</span></div>
-        <div class="legend-box" style="margin-left: 1em;">↓<span style="padding-left: .5em;">Sedation</span></div>
-      </div>
-
-    </mat-card-content>
-  </mat-card>
+        <div class="legend-container" style="padding: 1em 0">
+          <div class="legend-box">↑<span style="padding-left: .5em;">Tonification</span></div>
+          <div class="legend-box" style="margin-left: 1em;">↓<span style="padding-left: .5em;">Sedation</span></div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <ng-template #zoomed>
+    <mat-card (click)="toggle()" class="mat-elevation-z4" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+      <mat-card-header>
+        <mat-icon style=" right: 1em; position: absolute; cursor: pointer" (click)="zoomedImage=null">close</mat-icon>
+      </mat-card-header>
+      <mat-card-content>
+        <img style="width: 100% !important;" [src]="images[0]">
+      </mat-card-content>
+    </mat-card>
+  </ng-template>
 </div>

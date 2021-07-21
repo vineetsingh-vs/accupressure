@@ -24,7 +24,7 @@ export class RegisterComponent implements OnInit {
     if (this.form.valid) {
       this.http.postData('/authent/register', this.form.value).toPromise().then((user) => {
         if (!!user) {
-          localStorage.setItem('user', JSON.stringify(user));
+          localStorage.setItem('registeredUsers', JSON.stringify(user));
         }
       });
     } else {

@@ -29,6 +29,7 @@ export class MedDisplayComponent implements OnInit, OnChanges {
 
   public images: string[];
   public treatments: {key: string, value: string}[] = [];
+  public zoomedImage: string;
 
   constructor() { }
   ngOnInit(): void {
@@ -53,6 +54,10 @@ export class MedDisplayComponent implements OnInit, OnChanges {
 
   public processTreatment(treatment: string): string[] {
     return  treatment.replace('↓', '').replace('↑', '').trim().split(' ');
+  }
+
+  public zoom(image: string): void {
+    this.zoomedImage = image;
   }
 
 }

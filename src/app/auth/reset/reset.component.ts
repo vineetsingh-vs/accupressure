@@ -4,6 +4,7 @@ import {CoreHttpService} from '@core/services/http/http.service';
 import {Router} from '@angular/router';
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 import {DialogComponent} from '@shared/component/dialog/dialog.component';
+import {EncryptionService} from '@core/services/encryption.service';
 
 @Component({
   selector: 'app-reset',
@@ -12,7 +13,8 @@ import {DialogComponent} from '@shared/component/dialog/dialog.component';
 })
 export class ResetComponent implements OnInit {
 
-  constructor(private http: CoreHttpService, private router: Router, private dialog: MatDialog) { }
+  constructor(private http: CoreHttpService, private router: Router, private dialog: MatDialog,
+              private encryptionService: EncryptionService) { }
 
   public errorMessage: string;
 
@@ -27,6 +29,10 @@ export class ResetComponent implements OnInit {
 
   submit() {
     if (this.form.valid) {
+      const encryptedOldPassword = this.encryptionService.encrypt(this.form.value.oldPassword);
+      this.form.patchValue({...this.form.value, oldPassword: encryptedOldPassword});
+      const encryptedNewPassword = this.encryptionService.encrypt(this.form.value.newPassword);
+      this.form.patchValue({...this.form.value, newPassword: encryptedNewPassword});
       this.http.postData('/authent/reset', this.form.value).toPromise().then((resp) => {
         if (resp) {
          this.openDialog();

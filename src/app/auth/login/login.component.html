@@ -16,8 +16,14 @@
         <p *ngIf="!!errorMessage" class="error">
           {{errorMessage}}
         </p>
-        <div class="button">
-          <button type="submit" color="accent" mat-button>Login</button>
+
+        <div class="login">
+          <span class="reset-password">
+            <a [style]="'font-size: 90%'" routerLink="/auth/reset">Reset Password</a>
+          </span>
+          <span class="button">
+            <button type="submit" color="accent" mat-button>Login</button>
+          </span>
         </div>
 
       </form>

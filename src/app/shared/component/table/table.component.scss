@@ -8,10 +8,31 @@ table {
 }
 
 td, th {
-  width: 25%;
+  min-width: 100px !important;
+  padding-left: 2em !important;
 }
 
 .mat-primary{
   background: unset !important;
 }
 
+mat-icon{
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  cursor: pointer;
+  position: absolute;
+  top: -14px;
+}
+.copied {
+  color: green;
+}
+
+.password-width {
+  min-width: 130px !important;
+}
+.copied-text {
+  font-size: .8em;
+  font-weight: 700;
+  margin-left: 85px;
+  position: fixed;
+}

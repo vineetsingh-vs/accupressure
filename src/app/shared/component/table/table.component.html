@@ -3,10 +3,18 @@
 
     <ng-container *ngFor="let disCol of displayedColumns ; let colIndex = index" matColumnDef="{{disCol.fieldName}}">
       <th mat-header-cell *matHeaderCellDef>{{disCol.displayName}}</th>
-      <td mat-cell *matCellDef="let element">{{element[disCol.fieldName]}}</td>
+      <td mat-cell *matCellDef="let element" [ngClass]=" disCol.fieldName.includes('password') ? 'password-width' : ''">
+        <div style="display: inline-block">{{element[disCol.fieldName]}}</div>
+        <div style="position: relative; display: inline-block">
+          <mat-icon
+            [ngClass]="!!disCol.copied? 'copied' : ''"
+            [fontIcon]="" *ngIf="disCol.fieldName.includes('password')"
+            (click)="copy(disCol, element[disCol.fieldName] );"
+            [title]="!!disCol.copied ? 'copied' : 'copy'"
+          > {{!!disCol.copied ? 'check_circle' : 'file_copy'}} </mat-icon>
+        </div>
+      </td>
     </ng-container>
-
-
     <tr mat-header-row *matHeaderRowDef="columns"></tr>
     <tr mat-row *matRowDef="let row; columns: columns"></tr>
   </table>

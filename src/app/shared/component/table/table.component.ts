@@ -64,4 +64,16 @@ export class TableComponent implements OnInit, AfterViewInit, OnChanges {
     }
   }
 
+  public copy(copy: any, text: any): void {
+    copy.copied = true;
+    const clip = document.createElement('textarea');
+    clip.value = (text || '').trim();
+    document.body.appendChild(clip);
+    clip.select();
+    clip.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+    document.body.removeChild(clip);
+    setTimeout(() => copy.copied = false, 2000);
+}
+
 }

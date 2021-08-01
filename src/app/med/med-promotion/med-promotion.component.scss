@@ -1,0 +1,9 @@
+mat-card-content {
+  & .promotion-arrow{
+    display: table-cell;
+  }
+  & .promotion-text{
+    display: table-cell;
+    padding-left: .5em;
+  }
+}

@@ -1,0 +1,17 @@
+<fieldset class="field-set">
+  <legend>Treatments:</legend>
+  <ul>
+    <li *ngFor="let treatment of treatments">
+      <span>{{treatment.key}} - </span> <span>{{treatment.value}}</span>
+    </li>
+  </ul>
+</fieldset>
+<div class="display-img">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide *ngFor="let image of images">
+      <div class="picsum-img-wrapper">
+        <img (click)="zoom()" src="{{image}}" alt="Random slide">
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

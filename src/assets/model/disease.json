@@ -662,7 +662,7 @@
     },
     {
       "disease": "Eye disorders - Infection/inflammation",
-      "treatment": "Ly 2a ↓"
+      "treatment": "Lu 2a ↓"
     },
     {
       "disease": "Eye disorders - Inflammation of external corner of eye    ",
@@ -1106,47 +1106,47 @@
     },
 
     {
-      "disease": "     Continuous heart pain",
+      "disease": "Continuous heart pain",
       "treatment": "CV 4↓"
     },
     {
-      "disease": "     Chronic cardiac disorders",
+      "disease": "Chronic cardiac disorders",
       "treatment": "CV 14↓"
     },
     {
-      "disease": "     All acute valve affections, i.e.,stenosis (narrowing), insufficiency, etc    ",
+      "disease": "All acute valve affections, i.e.,stenosis (narrowing), insufficiency, etc    ",
       "treatment": "H 7↓"
     },
     {
-      "disease": "     Hypertrophied (enlarged) heart",
+      "disease": "Hypertrophied (enlarged) heart",
       "treatment": "P 7↓"
     },
     {
-      "disease": "     Palpitation – violent",
+      "disease": "Palpitation – violent",
       "treatment": "CV 12 ↓"
     },
     {
-      "disease": "     Arrhythmia (irregular heart beat)   ",
+      "disease": "Arrhythmia (irregular heart beat)   ",
       "treatment": "H 7↓"
     },
     {
-      "disease": "     Bradycardia (slow heart beat, i.e., less than 60 per minute)   ",
+      "disease": "Bradycardia (slow heart beat, i.e., less than 60 per minute)   ",
       "treatment": "H 5↑,GV 25↑,H 9↑,K 7↑"
     },
     {
-      "disease": "     Pacemaker problem (inability of sino atrial node & other heart cells to properly initiate heart beats)",
+      "disease": "Pacemaker problem (inability of sino atrial node & other heart cells to properly initiate heart beats)",
       "treatment": "H 6 (R) ↑, EAV point H 6a (R)↑"
     },
     {
-      "disease": "     Left ventricle hypertrophy (enlargement)",
+      "disease": "Left ventricle hypertrophy (enlargement)",
       "treatment": "P 7↓"
     },
     {
-      "disease": "     Myocarditis (inflammation of heart muscles)",
+      "disease": "Myocarditis (inflammation of heart muscles)",
       "treatment": "UB 64↓"
     },
     {
-      "disease": "     Tachycardia (abnormally rapid heart beat)",
+      "disease": "Tachycardia (abnormally rapid heart beat)",
       "treatment": "H 7↓,P 7↓"
     },
     {

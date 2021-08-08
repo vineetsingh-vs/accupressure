@@ -7,7 +7,7 @@
 <div class="display">
   <ng-container *ngIf="!!filteredMedDatas && filteredMedDatas.length > 0; else promotion">
     <ng-container *ngFor="let medData of filteredMedDatas">
-      <med-display [medData]="medData" [meridian]="meridian"></med-display>
+      <med-display [context]="medData.context" [isDisease]="isDisease" [images]="medData.images" [treatments]="medData.treatments" [meridian]="meridian"></med-display>
     </ng-container>
   </ng-container>
   <ng-template #promotion>

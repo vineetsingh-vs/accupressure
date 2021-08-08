@@ -25,10 +25,19 @@ export class MedDisplayComponent implements OnInit, OnChanges {
   @Input()
   public meridian: Meridian [] = [];
 
+  @Input()
+  public isDisease: boolean;
+
+  @Input()
+  public context: string;
+
+  @Input()
+  public images: string[];
+  @Input()
+  public treatments: {key: string, value: string}[] = [];
+
   public collapsed = true;
 
-  public images: string[];
-  public treatments: {key: string, value: string}[] = [];
   public zoomedImage: string;
 
   constructor() { }
@@ -36,24 +45,10 @@ export class MedDisplayComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (!!this.medData) {
-      const images = [...this.medData.treatments];
-      this.images = images.map((image, index) => {
-        const treatment = this.processTreatment(image);
-        this.treatments =  [...this.treatments,
-          {key: this.medData.treatments[index],
-            value: this.meridian.find((meri) => meri.point === `${treatment[0]}`).description }];
-        return decodeURIComponent(`/assets/image/${treatment[0]} ${treatment[1]}.jpg`);
-      });
-    }
   }
 
   public toggle(): void {
     this.collapsed = !this.collapsed;
-  }
-
-  public processTreatment(treatment: string): string[] {
-    return  treatment.replace('↓', '').replace('↑', '').trim().split(' ');
   }
 
   public zoom(image: string): void {

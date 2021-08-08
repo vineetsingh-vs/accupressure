@@ -13,12 +13,14 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RegisterComponent } from './register/register.component';
 import { MedPromotionComponent } from './med-promotion/med-promotion.component';
 import { MedHelpComponent } from './med-help/med-help.component';
+import { DiseaseComponent } from './med-display/disease/disease.component';
+import { PointComponent } from './med-display/point/point.component';
 
 
 
 
 @NgModule({
-  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent, RegisterComponent, MedPromotionComponent, MedHelpComponent],
+  declarations: [MedComponent, MedSearchComponent, MedDisplayComponent, RegisterComponent, MedPromotionComponent, MedHelpComponent, DiseaseComponent, PointComponent],
   imports: [
     RouterModule.forChild(MedRoutes),
     CommonModule,
